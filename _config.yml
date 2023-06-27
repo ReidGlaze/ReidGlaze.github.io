@@ -38,7 +38,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Reid Glaze
-  email: example@domain.com # change to your email address
+  email: reid.glaze@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username # change to your twitter homepage
@@ -80,7 +80,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://media.licdn.com/dms/image/D4E03AQGt8PKVetBatA/profile-displayphoto-shrink_800_800/0/1666228687503?e=1693440000&v=beta&t=x4M-10GfDogmC-ubmJGK9X5ex7uPoUakitGqI8p0bWI
 
 # boolean type, the global switch for TOC in posts.
 toc: true

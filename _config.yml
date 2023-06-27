@@ -18,12 +18,12 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Reid Glaze # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: My Portfolio # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  A webpage to host my data projects
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://reidglaze.github.io"
@@ -37,7 +37,7 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
+  name: Reid Glaze
   email: example@domain.com # change to your email address
   links:
     # The first element serves as the copyright owner's link

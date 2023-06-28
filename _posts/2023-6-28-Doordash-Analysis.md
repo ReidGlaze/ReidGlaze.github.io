@@ -11,7 +11,7 @@ How much do our online food delivery choices reflect our preferences, habits, an
 
 ## Dataset
 
-For this project, I will be using a modified version of a DoorDash dataset called [iFood]https://github.com/nailson/ifood-data-business-analyst-test/blob/master/ifood_df.csv. This dataset includes valuable information such as financial information, customer demographics, and product preferences. 
+For this project, I will be using a modified version of a DoorDash dataset called [iFood](https://github.com/nailson/ifood-data-business-analyst-test/blob/master/ifood_df.csv). This dataset includes valuable information such as financial information, customer demographics, and product preferences. 
 
 ## Questions to Answer
 
@@ -48,7 +48,7 @@ Lastly, the data showed some patterns on when people choose to join the service.
 ![by origin](/assets/images/month.png)
 
 
-## Findings
+## Takeaways
 
 In the context of this dataset, which I'm analyzing from an academic standpoint, I'm assuming it to pertain to a food and wine delivery service. Though I have some reservations about the dataset's real-world accuracy, I'll still be treating it as valid for the purposes of my study. It's evident from the data that our service has a greater appeal to individuals aged 35 and above. Consequently, the company should strategize marketing campaigns to resonate with this older demographic. More specifically, It should target high-income, middle-aged people with no kids. These campaigns may be more effective in peak months like January, March, July, or September.
 

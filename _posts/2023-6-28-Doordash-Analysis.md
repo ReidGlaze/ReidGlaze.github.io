@@ -7,11 +7,11 @@ tags: [data analytics,excel]     # TAG names should always be lowercase
 ---
 
 
-How much do our online food delivery choices reflect our preferences, habits, and lifestyle? This is the question at the heart of my first project with DAA, a data bootcamp led by Avery Smith. With an engineering background and some experience in machine learning, my aim is to expand my skillset through this bootcamp, with a focus on mastering tools such as SQL, R, and Tableau. For this specific project, we'll be utilizing Excel to analyze the data. Welcome to my first project in this new chapter of my data analysis journey!
+How much do our online food delivery choices reflect our preferences, habits, and lifestyle? This is the question at the heart of my first project with DAA, a data bootcamp led by Avery Smith. With an engineering background and some experience in machine learning, my aim is to expand my skill set through this bootcamp, with a focus on mastering tools such as SQL, R, and Tableau. For this specific project, we'll be utilizing Excel to analyze the data. Welcome to my first project in this new chapter of my data analysis journey!
 
 ## Dataset
 
-For this project, I will be using a modified version of a DoorDash dataset called iFood. This dataset includes valuable information such as financial information, customer demographics, and product preferences. 
+For this project, I will be using a modified version of a DoorDash dataset called [iFood]https://github.com/nailson/ifood-data-business-analyst-test/blob/master/ifood_df.csv. This dataset includes valuable information such as financial information, customer demographics, and product preferences. 
 
 ## Questions to Answer
 
@@ -29,7 +29,7 @@ This dataset has given us some interesting insights. For starters, over half (54
 
 ![by origin](/assets/images/products.png)
 
-The data also showed a strong link between a person's income and how much they're spending on delivery, with an r-squared value of 0.6774 in the regression analysis. This tells us that income does play a big role in how much people are willing to spend on deliveries. It's also worth noting that most people spent somewhere between 0 and 400 bucks on delivery.
+The data also showed a strong link between a person's income and how much they're spending on delivery, with an r-squared value of 0.6774 in the regression analysis. This tells us that income does play a big role in how much people are willing to spend on deliveries. It's also worth noting that most people spent somewhere between 0 and 400 bucks on delivery during the year.
 
 ![by origin](/assets/images/line.png)
 ![by origin](/assets/images/amount.png)

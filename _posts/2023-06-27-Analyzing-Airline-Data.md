@@ -3,7 +3,7 @@ title: "Analyzing Airline Data"
 date: 2023-06-27 00:00:00 -0700
 image: https://media.licdn.com/dms/image/D5612AQGtS1pwY3xayw/article-cover_image-shrink_423_752/0/1687703011811?e=1693440000&v=beta&t=TDTAy-U5nitAYHm1g1pJqKlENluQI8nz_0Wd1mwDMCI
 categories: [Grad School Projects]
-tags: [data mining,flight data,data analysis,data science]     # TAG names should always be lowercase
+tags: [data mining,flight data,data analysis,data science,python]     # TAG names should always be lowercase
 ---
 
 
@@ -17,6 +17,7 @@ Our goal was to analyze a data from Jan 2022 to April 2022 and extract meaningfu
 2. What are the relationships between airline carriers and flight delays/cancellations?
 3. What are the most common reasons for flight delays based on airports?
 4. What are the relationships between days in a week or times in a day when there are a lot of cancellations and delays?
+
 Additionally, we built a prediction model that could be used to calculate the arrival delay for a flight based on the other attributes. The customers and the airport authorities could directly use this. We also built several classification models to predict the reason for cancellations of flights based on the attributes provided by the dataset. For more information about the classification and prediction models, please see the full write-up at the bottom of the page.
 
 ## What we Learned

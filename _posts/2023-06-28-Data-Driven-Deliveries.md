@@ -1,5 +1,5 @@
 ---
-title: "Doordash Analysis"
+title: "Data-Driven Deliveries"
 date: 2023-06-28 00:00:00 -0700
 image: /assets/images/doordash.png
 categories: [DAA Bootcamp]

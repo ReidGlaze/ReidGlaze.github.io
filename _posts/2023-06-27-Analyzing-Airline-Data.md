@@ -66,7 +66,7 @@ Probability of Cancellation based off day of the week:
 Decision Tree Classifier for cancellation of flights:
 ![Decision tree classifier](https://media.licdn.com/dms/image/D5612AQF7Zi08LH9MlA/article-inline_image-shrink_1500_2232/0/1687707223937?e=1693440000&v=beta&t=h6lGurb27pJzz5uO2iEwPnsuTWyJwhN3IeDjH6XpO2c)
 
-## Summary & Appliations
+## Summary
 
 For our first question, we found out which airports we should focus on infrastructure development concerning carrier and aircraft delays. This information will help us to mitigate the frequency and severity of delays for passengers. The solution for the second question was found by which airlines have the most percentage of their flights delayed during departure and arrival based on different delay times. For the third question, we found the most common reasons for delays in flights based on origin airports, origin state, and airlines. The analysis was done to find the top 10 candidates which cause the delay in flights, so that information will help make informed decisions about which airlines and airports should be preferred. For our last question, we determined which times are optimal for consumers to purchase a flight to minimize the probability of delays.
 We tried to build two types of prediction models. The first one was a Multiple Linear Regression model and the second one was a Neural Network. We concluded that the neural network was much better at predicting flight delays and the predicted values were much closer to the actual values. These predictions could be further improved with additional data and a more complex model. Neural networks did the best task in prediction of flight delays with mean absolute difference value of 14.7.

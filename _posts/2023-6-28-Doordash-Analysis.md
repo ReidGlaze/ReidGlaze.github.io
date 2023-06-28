@@ -29,7 +29,7 @@ This dataset has given us some interesting insights. For starters, over half (54
 
 ![by origin](/assets/images/products.png)
 
-The data also showed a strong link between a person's income and how much they're spending on delivery, with an r-squared value of 0.6774 in the regression. This tells us that income does play a big role in how much people are willing to spend on deliveries.
+The data also showed a strong link between a person's income and how much they're spending on delivery, with an r-squared value of 0.6774 in the regression analysis. This tells us that income does play a big role in how much people are willing to spend on deliveries.
 
 ![by origin](/assets/images/line.png)
 

@@ -13,7 +13,7 @@ How much do our online food delivery choices reflect our preferences, habits, an
 
 For this project, I will be using a modified version of a DoorDash dataset called [iFood](https://github.com/nailson/ifood-data-business-analyst-test/blob/master/ifood_df.csv). This dataset includes valuable information such as financial information, customer demographics, and product preferences. 
 
-## Questions to Answer
+## Questions
 
 I set out to answer a few questions:
 1. What is the relation between income and amount spent on online orders?

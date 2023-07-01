@@ -17,8 +17,6 @@ For this project, I will focus on trends in Massachusetts public schools using t
 Here are some interesting findings from this project:
 
 
-<iframe src="https://public.tableau.com/views/Massachusetts_16880559956770/Dashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link"></iframe>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -35,6 +33,3 @@ Here are some interesting findings from this project:
 </html>
 
 
-
-
-https://public.tableau.com/views/Massachusetts_16880559956770/Dashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link

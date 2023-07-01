@@ -1,5 +1,5 @@
 ---
-title: "Massachusetts Education Overview"
+title: "Analyzing Massachusetts Public Schools: A Tableau-Based Study"
 date: 2023-07-01 00:00:00 -0700
 image: /assets/images/Massachusetts.png
 categories: [DAA Bootcamp]

@@ -9,7 +9,7 @@ Hello! I'm Reid. I was born and raised in North Carolina, but these days, I call
 
 I have a Master's degree in Mechanical Engineering from the University of Colorado, with a specialization in machine learning. Through their flexible "Flex" program, I had the opportunity to expand my horizons and take classes outside of my department.
 
-As someone who believes in continuous growth and learning, I'm currently enhancing my abilities in SQL, R, and Tableau by participating in an engaging data bootcamp. It's a challenging yet rewarding journey, and I'm excited about where it's taking me.
+As someone who believes in continuous growth and learning, I'm currently enhancing my abilities in SQL, R, and Tableau by participating in an engaging data bootcamp. 
 
 This website is my digital portfolio, where I document my projects and experiences. It's a snapshot of my journey so far and the progress I'm making in my field.
 

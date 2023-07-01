@@ -1,35 +1,57 @@
 ---
-title: "Education-Overview"
-date: 2023-06-30 00:00:00 -0700
+title: "Analyzing Massachusetts Public Schools: A Tableau-Based Study"
+date: 2023-07-01 00:00:00 -0700
 image: /assets/images/Massachusetts.png
 categories: [DAA Bootcamp]
-tags: [data analytics,excel]     # TAG names should always be lowercase
+tags: [data analytics,tableau]     # TAG names should always be lowercase
 ---
 
-A couple of weeks ago, I was looking into the housing market. I found out about Rocket Mortgage, a company that lets people buy homes with a 1% down payment. I also read about how foreclosures are going up, especially in low income parts of Florida where these loans are popular. This interactive map, highlighting foreclosure rates per zip code, left me in awe of its informational efficiency. I pondered how much effort must've gone into making such a visual. That was before I learned about Tableau. This morning, I made a similar map using Tableau in less than an hour. I'm really excited to learn more about this tool!
+Have you ever wondered what makes one school excel while another struggles? I looked into Massachusetts public schools' data, using the powerful visualization tool, Tableau, to answer this question. It allowed me to analyze and understand the complex patterns affecting educational performance. My insights are captured in an interactive dashboard, including a map of Massachusetts where each zip code is represented by a clickable region. Feel free to explore this dashboard by clicking on the image below to uncover the fascinating trends that affect this state's education system.
+
+
+[![by origin](/assets/images/MassDashboard.png)](https://public.tableau.com/app/profile/reid.glaze/viz/Massachusetts_16880559956770/Dashboard?publish=yes)
 
 ## The Project
 
-For this project, I will focus on trends in Massachusetts public schools using the "Massachusetts Public Schools Data" dataset from Kaggle. This dataset contains a range of information including student demographics, school performance, graduation rates, and college attendance statistics. The ultimate objective is to uncover patterns and discern which factors contribute most significantly to underperformance in Massachusetts educational institutions.
+For this project, I will focus on trends in Massachusetts public schools using the ["Massachusetts Public Schools Data"](https://www.kaggle.com/datasets/ndalziel/massachusetts-public-schools-data) dataset from Kaggle. This dataset contains a range of information including student demographics, school performance, graduation rates, and college attendance statistics from 2017. The ultimate objective is to uncover patterns and discern which factors contribute most significantly to underperformance in Massachusetts educational institutions.
+
+Some questions I will aim to answer:
+* How does class size affect rates of college attendance?
+* How does a school being economically disadvantaged affect college attendance?
+* How does a school being economically disadvantaged affect graduation rates?
+* How much do graduation rates vary from school to school?
+* What kind of trends can be observed in primary education?
 
 ## Findings
 
-Here are some interesting findings from this project:
+The initial observation that grabbed my attention was an unexpected positive link between class size and college attendance rates. This was surprising, as I had always assumed smaller classes meant better outcomes. However, once a 4th degree polynomial regression line was applied to the scatter plot, the relationship was clear. Interestingly, this trend holds up until class sizes reach around 35 students. Although this needs more investigation due to limited data points for class sizes over 25, it's evident that classrooms with over 15 students perform significantly better than smaller ones.
+
+The second finding was how economic disadvantage impacts college attendance. This was a less surprising but very significant trend. The percentage of college attendees among economically disadvantaged students varied greatly, ranging from as low as 10 percent to as high as 95 percent. Most high-performing outliers were charter schools, a fact revealed by Tableau's feature allowing for a closer look at individual data points. This significant difference in the impact of economic disadvantage on college attendance brings out the deep societal implications of these observations.
+
+![by origin](/assets/images/ClassSize.png)
+
+A key trend visible in the data is the variation in graduation rates among Massachusetts high schools. Despite Massachusetts being renowned for its high-quality public education, the schools with the lowest 10 graduation rates all sit below 20 percent. By interacting with the bar graph on the Tableau dashboard, you'll notice that most of these underperforming schools serve a high proportion of economically disadvantaged students. In stark contrast, the top 10 schools, all boasting a flawless graduation rate of 100 percent, serve far fewer students from disadvantaged backgrounds. This clear divergence shines a light on the educational disparities that exist even within one of the nation's leading public school systems.
+
+![by origin](/assets/images/BottomTop.png)
+
+Let's focus on one particular measure that underscores an area for potential enhancement in Massachusetts public schools. The rise of tech jobs and their promise of social mobility underscore the importance of early education, particularly in areas like mathematics. These formative years lay the groundwork for lifelong learning habits. For this analysis, I'll concentrate on 4th grade math MCAS scores. The visuals below spotlight school districts falling below the 50th percentile, as marked by the dividing line. If you interact with these schools on the Tableau dashboard, you can see the proportion of economically disadvantaged students in these districts. It's a revealing glance into how economic disparities can intersect with academic performance, even from a young age.
+
+![by origin](/assets/images/4thGrade.png)
+
+## Key Observations
+
+* Across various indicators such as graduation rates, college attendance, and primary school performance, economically disadvantaged school districts exhibit poorer overall performance.
+* Attending a charter school appears to offer economically disadvantaged students the greatest chance for educational advancement and improvement in life prospects.
+* Schools with larger class sizes tend to demonstrate higher rates of graduation and college attendance.
 
 
+## How to Improve
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Dashboard</title>
+To enhance school performance in economically disadvantaged areas, Massachusetts should center its attention on three key areas according to this data.
 
-  </head>
-  <body>
-    <h1>Embedded Analytics with Tableau</h1>
-    <div class='tableauPlaceholder' id='viz1688182093142' style='position: relative'><noscript><a href='#'><img alt='Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;Massachusetts_16880559956770&#47;Dashboard&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Massachusetts_16880559956770&#47;Dashboard' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;Massachusetts_16880559956770&#47;Dashboard&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1688182093142');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='2127px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-  </body>
-</html>
+Firstly, improving math scores in primary schools is crucial, particularly in less affluent neighborhoods. This is not merely about achieving proficiency in a subject; it's about equipping kids with the tools they need for a bright future. Strong math skills not only open doors to rewarding careers in sectors like tech and engineering but also develop critical problem-solving skills applicable in everyday life. This means kids from less privileged backgrounds, when they excel in school and land great jobs, have the opportunity to climb the social ladder and escape the economic circumstances of their parents. Hence, prioritizing math in primary schools isn't simply a numbers game, but a strategic step towards building a brighter future for these kids.
 
+Secondly, the state should place a higher priority on widening access to charter schools for economically disadvantaged students. Data suggests that attending charter schools provides them with the best shot at educational advancement and improved life prospects. By broadening the availability and enrollment options in charter schools, Massachusetts can offer these students improved educational opportunities, creating a pathway to academic success and abundant future possibilities.
+
+Lastly, Massachusetts should strike a careful balance when it comes to class sizes. While data indicates that larger class sizes can correlate with higher graduation rates and college attendance, the state should also focus on personalized attention and individualized support within these larger classes. This balance could be achieved with targeted measures like small-group instruction or personalized tutoring. By ensuring that students, particularly those from economically disadvantaged areas, receive the necessary academic support, Massachusetts can enhance their educational outcomes, thereby helping them reach their full academic potential.
 

@@ -1,7 +1,7 @@
 ---
 title: "Education-Overview"
 date: 2023-06-30 00:00:00 -0700
-image: /assets/images/doordash.png
+image: 
 categories: [DAA Bootcamp]
 tags: [data analytics,excel]     # TAG names should always be lowercase
 ---

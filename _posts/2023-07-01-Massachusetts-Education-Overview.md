@@ -35,3 +35,22 @@ A key trend visible in the data is the variation in graduation rates among Massa
 ![by origin](/assets/images/BottomTop.png)
 
 Let's focus on one particular measure that underscores an area for potential enhancement in Massachusetts public schools. The rise of tech jobs and their promise of social mobility underscore the importance of early education, particularly in areas like mathematics. These formative years lay the groundwork for lifelong learning habits. For this analysis, I'll concentrate on 4th grade math MCAS scores. The visuals below spotlight school districts falling below the 50th percentile, as marked by the dividing line. If you interact with these schools on the Tableau dashboard, you can see the proportion of economically disadvantaged students in these districts. It's a revealing glance into how economic disparities can intersect with academic performance, even from a young age.
+
+![by origin](/assets/images/4thGrade.png)
+
+## Key Observations
+
+* Across various indicators such as graduation rates, college attendance, and primary school performance, economically disadvantaged school districts exhibit poorer overall performance.
+* Attending a charter school appears to offer economically disadvantaged students the greatest chance for educational advancement and improvement in life prospects.
+* Schools with larger class sizes tend to demonstrate higher rates of graduation and college attendance.
+
+## How to Improve
+
+To enhance school performance in economically disadvantaged areas, Massachusetts should center its attention on three key areas according to this data.
+
+Firstly, improving math scores in primary schools is crucial, particularly in less affluent neighborhoods. This is not merely about achieving proficiency in a subject; it's about equipping kids with the tools they need for a bright future. Strong math skills not only open doors to rewarding careers in sectors like tech and engineering but also develop critical problem-solving skills applicable in everyday life. This means kids from less privileged backgrounds, when they excel in school and land great jobs, have the opportunity to climb the social ladder and escape the economic circumstances of their parents. Hence, prioritizing math in primary schools isn't simply a numbers game, but a strategic step towards building a brighter future for these kids.
+
+Secondly, the state should place a higher priority on widening access to charter schools for economically disadvantaged students. Data suggests that attending charter schools provides them with the best shot at educational advancement and improved life prospects. By broadening the availability and enrollment options in charter schools, Massachusetts can offer these students improved educational opportunities, creating a pathway to academic success and abundant future possibilities.
+
+Lastly, Massachusetts should strike a careful balance when it comes to class sizes. While data indicates that larger class sizes can correlate with higher graduation rates and college attendance, the state should also focus on personalized attention and individualized support within these larger classes. This balance could be achieved with targeted measures like small-group instruction or personalized tutoring. By ensuring that students, particularly those from economically disadvantaged areas, receive the necessary academic support, Massachusetts can enhance their educational outcomes, thereby helping them reach their full academic potential.
+

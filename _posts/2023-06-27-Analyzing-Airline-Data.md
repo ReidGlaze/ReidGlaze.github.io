@@ -1,5 +1,5 @@
 ---
-title: "Analyzing Airline Data"
+title: "Analyzing Airline Data: A Data Mining Project"
 date: 2023-06-27 00:00:00 -0700
 image: https://media.licdn.com/dms/image/D5612AQGtS1pwY3xayw/article-cover_image-shrink_423_752/0/1687703011811?e=1693440000&v=beta&t=TDTAy-U5nitAYHm1g1pJqKlENluQI8nz_0Wd1mwDMCI
 categories: [Grad School Projects]

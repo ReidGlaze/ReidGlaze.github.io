@@ -1,13 +1,13 @@
 ---
 title: "Hand Segmentation"
 date: 2023-07-04 00:00:00 -0700
-image:
+image: /assets/images/CVCanva.png
 categories: [Grad School Projects]
 tags: [computer vision,python,opencv]     # TAG names should always be lowercase
 ---
 
 
-On this project, I worked with Rohit Kharat, a fellow student in my MS program. As students in Computer Vision under Dr. Iona Fleming, we embarked on a fascinating project with the goal of creating a program that could detect the number of fingers a user was holding up in front of a webcam. The aim was to create a program that was as robust as possible, capable of functioning in different lighting environments, and adaptable to various skin colors. The primary tool used for this project was OpenCV, while TensorFlow, Mediapipe and similar libraries were intentionally avoided.
+On this project, I worked with Rohit Kharat, a fellow mechanical engineering student in my MS program. As students in the Computer Vision instructed by Dr. Iona Fleming, we embarked on a fascinating project with the goal of creating a program that could detect the number of fingers a user was holding up in front of a webcam. The aim was to create a program that was as robust as possible, capable of functioning in different lighting environments, and adaptable to various skin colors. The primary tool used for this project was OpenCV, while TensorFlow, Mediapipe and similar libraries were intentionally avoided.
 
 ## Tools Used
 * Python was used along with Jupyter Notebook
@@ -36,6 +36,8 @@ A variety of computer vision methods were used for segmentation. The program tak
 A small amount of noise was added at the very beginning to make the texture in the hand less significant. Median and Gaussian blurring were applied several times to the color image to make the texture in the hand less significant. When fingers cross over the palm, this often causes problems with the segmentation. However, too much blurring can make segmentation more difficult. The kernel size and frequency of blurring were experimented with to minimize both problems.
 
 The bilateral filter was found to be a very important tool in performing segmentation and was used three times. This filter is effective at blurring an image while keeping the edges sharp. However, it slows down the program significantly. Despite this, the improvement in segmentation that resulted from this filter was worth the downsides.
+
+![Some Title](/assets/images/twofingers.png){: width="300" }
 
 A very small increase in contrast was applied to the region of interest twice. The increase in contrast was done in between the times when the bilateral filter was used. The point of this was to increase the contrast of the edges. It was found that a large adjustment in contrast caused problems with segmentation inside of the hand. Therefore, this was used sparingly.
 

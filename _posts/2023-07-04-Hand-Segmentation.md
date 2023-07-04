@@ -15,7 +15,7 @@ On this project, I worked with Rohit Kharat, a fellow student in my MS program. 
 * OpenCV library was used for a variety of thresholding techniques
 * OS library was used for system-specific functions
 * Numpy used for the count function
-* Sklearn used for euclidean distance
+* Sklearn used for euclidean distance (green circle)
 * Tensorflow and Mediapipe were NOT allowed
 
 ## The Project
@@ -36,11 +36,15 @@ A small amount of noise was added at the very beginning to make the texture in t
 
 The bilateral filter was found to be a very important tool in performing segmentation and was used three times. This filter is effective at blurring an image while keeping the edges sharp. However, it slows down the program significantly. Despite this, the improvement in segmentation that resulted from this filter was worth the downsides.
 
+![Alt Text](/assets/images/twofingers.png)
+
 A very small increase in contrast was applied to the region of interest twice. The increase in contrast was done in between the times when the bilateral filter was used. The point of this was to increase the contrast of the edges. It was found that a large adjustment in contrast caused problems with segmentation inside of the hand. Therefore, this was used sparingly.
 
 Color to grayscale conversion is done before applying the binary threshold. This is a necessary task for performing binary thresholding. Additionally, it was important to use various image processing methods before performing the conversion because the inside of the hand can be complicated and difficult to segment.
 
-OTSU binary thresholding was used to finally segment the grayscale image into a binary image. This method sets a custom threshold for each kernel used. The size of the kernel used was 11 by 11. This method was used to account for different colors and levels of brightness. It also helps segment variability inside of the hand. Finger counting and segmentation in a dark environment isshown in figure 3. Although the segmentation of the hand looks much different, it is still able to count all 5 fingers.
+OTSU binary thresholding was used to finally segment the grayscale image into a binary image. This method sets a custom threshold for each kernel used. The size of the kernel used was 11 by 11. This method was used to account for different colors and levels of brightness. It also helps segment variability inside of the hand. Finger counting and segmentation in a dark environment is shown. Although the segmentation of the hand looks much different, it is still able to count all 5 fingers.
+
+![Alt Text](/assets/images/darkfingers.png)
 
 
 ## Methods used for Finger Counting
@@ -67,6 +71,8 @@ A factor that was multiplied by the maximum Euclidian distance was tested at dif
 
 The program has known limitations and possible future extensions. One problem is that the fingers must be clearly separated to segment correctly. When the Star Trek symbol is held up, the program shows only two fingers. We are unsure how to solve this problem and it could be rather difficult to solve without using more advanced libraries.
 
+![Alt Text](/assets/images/startrek.png)
+
 Sometimes, segmentations can be inaccurate due to watches or other wearables. The segmentation of the watch changes the size of the circle and can result in problems. Shadows can also alter the segmentations and cause the size of the circle to change. In this example, the circle is made to be too large and one of the fingers is not counted.
 
 Inaccurate segmentations can be caused for a variety of reasons including lighting, angle and proximity of the hand, hand shape. This program is far from perfect and has lots of room for improvement. Visual cues can be used to help the user position the hand correctly, but this program may not be reliable without such feedback. However, it provides nice insight into how the program is implemented and strives to improve robustness and adaptability to variable conditions.
@@ -77,8 +83,6 @@ In terms of contributions, I worked on the implementation of different methods a
 
 ## Conculsion
 
-Through this project, I learned the advantage of using OTSU binary thresholding over regular binary thresholding. I learned the significance of this tool by experimenting with variable lighting conditions. I also learned how a bilateral filter can be useful for segmentation of an object from a background. This was discovered by using the tool in place of other forms of blurring. Lastly, I learned how the use of a mask can be used to count segmentations. This was done by utilizing the circle.
-
-In conclusion, this project was a great learning experience and a step forward in the field of computer vision Despite the challenges and limitations.
+Through this project, I learned the advantage of using OTSU binary thresholding over regular binary thresholding. I learned the significance of this tool by experimenting with variable lighting conditions. I also learned how a bilateral filter can be useful for segmentation of an object from a background. This was discovered by using the tool in place of other forms of blurring. Lastly, I learned how the use of a mask can be used to count segmentations. This was done by utilizing the circle. In conclusion, this project was a great learning experience and provided great insight into the opencv library.
 
 ### [See the Code on Github!](https://github.com/ReidGlaze/Computer_Vision/blob/main/Final_Project/CVProject.py)

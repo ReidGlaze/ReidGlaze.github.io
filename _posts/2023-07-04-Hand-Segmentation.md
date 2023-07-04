@@ -30,7 +30,8 @@ Despite the challenges, the project was largely successful. The program can dete
 
 A variety of computer vision methods were used for segmentation. The program takes the weighted average for the region of interest, which is bounded by a red box. This is done over time and warns the user. This allows a variety of backgrounds to be used, but it's important that the user keeps the background in the region of interest consistent over this time. The difference between the user’s hand and the measured weighted background is taken to account for different colors and lighting.
 
-![Alt Text](/assets/images/bg.png)
+![Some Title](/assets/images/bg.png){: width="300" }
+
 
 A small amount of noise was added at the very beginning to make the texture in the hand less significant. Median and Gaussian blurring were applied several times to the color image to make the texture in the hand less significant. When fingers cross over the palm, this often causes problems with the segmentation. However, too much blurring can make segmentation more difficult. The kernel size and frequency of blurring were experimented with to minimize both problems.
 
@@ -42,7 +43,8 @@ Color to grayscale conversion is done before applying the binary threshold. This
 
 OTSU binary thresholding was used to finally segment the grayscale image into a binary image. This method sets a custom threshold for each kernel used. The size of the kernel used was 11 by 11. This method was used to account for different colors and levels of brightness. It also helps segment variability inside of the hand. Finger counting and segmentation in a dark environment is shown. Although the segmentation of the hand looks much different, it is still able to count all 5 fingers.
 
-![Alt Text](/assets/images/darkfingers.png)
+![Alt Text](/assets/images/darkfingers.png){: width="300" }
+
 
 ## Methods used for Finger Counting
 

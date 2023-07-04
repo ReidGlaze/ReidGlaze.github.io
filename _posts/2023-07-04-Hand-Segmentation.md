@@ -43,3 +43,16 @@ A very small increase in contrast was applied to the region of interest twice. T
 Color to grayscale conversion is done before applying the binary threshold. This is a necessary task for performing binary thresholding. Additionally, it was important to use various image processing methods before performing the conversion because the inside of the hand can be complicated and difficult to segment.
 
 OTSU binary thresholding was used to finally segment the grayscale image into a binary image. This method sets a custom threshold for each kernel used. The size of the kernel used was 11 by 11. This method was used to account for different colors and levels of brightness. It also helps segment variability inside of the hand. Finger counting and segmentation in a dark environment is shown. Although the segmentation of the hand looks much different, it is still able to count all 5 fingers.
+
+
+![Alt Text](/assets/images/darkfingers.png){: width="300" }
+
+## Methods used for Finger Counting
+
+After binary thresholding, the find contours function is used to segment the hand. The contours are depicted with the blue lines shown inside the region of interest. To count the fingers, the convex hull is found, using the most extreme points that lie to the right, left, top, and bottom of the hand. The averages between the right and left points as well as the top and bottom points are taken to find the center. The center is marked by the green dot in the hand.
+
+Four Euclidian distances are taken, measuring the distance in between the center and each of these 4 extreme points in the convex hull. The maximum of these Euclidian distances is taken before determining the radius of the circle. A radius value of 0.85 times the maximum Euclidian distance is used to determine the size of the circle. It is drawn around the center of the convex hull. The 0.85 value was taken after experimentation but can be modified for different results.
+
+The find contours function is used to find how many segmentations lie on the circle. The circular region of interest is used as a mask. Each of the segmentations are outlined by blue boxes in the images. Since the wrist lies outside of the circle, it is important to exclude the contour region that lies at the bottom of the image. Additionally, forming a fist can cause a segmentation at the top of the hand when no fingers are being raised. This segmentation is excluded by dropping all segmentations that exceed 15 percent of the circumference. Exclusion of these segmentations is shown.
+
+![Alt Text](/assets/images/exclude.png){: width="300" }

@@ -54,7 +54,8 @@ Four Euclidian distances are taken, measuring the distance in between the center
 
 The find contours function is used to find how many segmentations lie on the circle. The circular region of interest is used as a mask. Each of the segmentations are outlined by blue boxes in the images. Since the wrist lies outside of the circle, it is important to exclude the contour region that lies at the bottom of the image. Additionally, forming a fist can cause a segmentation at the top of the hand when no fingers are being raised. This segmentation is excluded by dropping all segmentations that exceed 15 percent of the circumference. Exclusion of these segmentations is shown.
 
-![Alt Text](/assets/images/exclude.png)
+![Alt Text](/assets/images/exclude.png){: width="300" }
+
 
 There were several methods that did not work as expected. For example, excessive blurring was initially used many times with large kernel sizes. It was theorized that this blurring would minimize dark and light spots on the hand and therefore make thresholding and segmentation easier. However, this level of blurring made the edges harder to detect and did not work well when lighting conditions were changed. When little to no blurring was used, the segmentation of the hand was patchy. This can result in problems because a single finger could result in two or more segmentations. It is important to use enough blurring so that the black patches are limited to parts of the hand that are not counted for segmentation.
 
@@ -69,6 +70,8 @@ A factor that was multiplied by the maximum Euclidian distance was tested at dif
 ## Limitations & Possible Future Extensions
 
 The program has known limitations and possible future extensions. One problem is that the fingers must be clearly separated to segment correctly. When the Star Trek symbol is held up, the program shows only two fingers. We are unsure how to solve this problem and it could be rather difficult to solve without using more advanced libraries.
+
+![Alt Text](/assets/images/startrek.png){: width="300" }
 
 Sometimes, segmentations can be inaccurate due to watches or other wearables. The segmentation of the watch changes the size of the circle and can result in problems. Shadows can also alter the segmentations and cause the size of the circle to change. In this example, the circle is made to be too large and one of the fingers is not counted.
 

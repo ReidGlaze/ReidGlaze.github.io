@@ -7,7 +7,7 @@ tags: [computer vision,python,opencv]     # TAG names should always be lowercase
 ---
 
 
-On this project, I worked with Rohit Kharat, a fellow mechanical engineering student in my MS program. As students in the Computer Vision instructed by Dr. Iona Fleming, we embarked on a fascinating project with the goal of creating a program that could detect the number of fingers a user was holding up in front of a webcam. The aim was to create a program that was as robust as possible, capable of functioning in different lighting environments, and adaptable to various skin colors. The primary tool used for this project was OpenCV, while TensorFlow, Mediapipe and similar libraries were intentionally avoided.
+On this project, I worked with Rohit Kharat, a fellow mechanical engineering student in my MS program. As students in the Computer Vision class instructed by Dr. Iona Fleming, we embarked on a fascinating project with the goal of creating a program that could detect the number of fingers a user was holding up in front of a webcam. The aim was to create a program that was as robust as possible, capable of functioning in different lighting environments, and adaptable to various skin colors. The primary tool used for this project was OpenCV, while TensorFlow, Mediapipe and similar libraries were intentionally avoided.
 
 ## Tools Used
 * Python was used along with Jupyter Notebook

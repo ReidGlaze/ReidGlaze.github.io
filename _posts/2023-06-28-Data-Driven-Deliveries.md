@@ -36,7 +36,7 @@ The data also showed a strong link between a person's income and how much they'r
 
 Now, let's talk about kids. Those with no kids spent more on delivery than those with one or two kids. This could be because maybe they're drinking more wine or they just have more cash to throw around. These figures are averages for people with 0, 1, or 2 kids, not totals.
 
-![by origin](/assets/images/kids.png)
+![by origin](/assets/images/NumKids.png)
 
 Age also plays a part here. The 36-50 age group ordered the most, with the 51-65 group coming next. The 24-35 group, however, didn't order much. 
 

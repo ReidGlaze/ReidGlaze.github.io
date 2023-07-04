@@ -36,7 +36,6 @@ A small amount of noise was added at the very beginning to make the texture in t
 
 The bilateral filter was found to be a very important tool in performing segmentation and was used three times. This filter is effective at blurring an image while keeping the edges sharp. However, it slows down the program significantly. Despite this, the improvement in segmentation that resulted from this filter was worth the downsides.
 
-![Alt Text](/assets/images/twofingers.png)
 
 A very small increase in contrast was applied to the region of interest twice. The increase in contrast was done in between the times when the bilateral filter was used. The point of this was to increase the contrast of the edges. It was found that a large adjustment in contrast caused problems with segmentation inside of the hand. Therefore, this was used sparingly.
 

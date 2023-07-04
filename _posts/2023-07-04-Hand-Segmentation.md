@@ -26,7 +26,7 @@ Despite the challenges, the project was largely successful. The program can dete
 
 ![Alt Text](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHhudDV6azVka25iZWtteGpmb2J1Z2VvODYxMGNpY244eGEzcm96YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Q8eGVoW4yWxO0bd3T3/giphy.gif)
 
-## Computer Vision Methods Used for Segmentation
+## Methods Used for Segmentation
 
 A variety of computer vision methods were used for segmentation. The program takes the weighted average for the region of interest, which is bounded by a red box. This is done over time and warns the user. This allows a variety of backgrounds to be used, but it's important that the user keeps the background in the region of interest consistent over this time. The difference between the user’s hand and the measured weighted background is taken to account for different colors and lighting.
 
@@ -43,13 +43,15 @@ Color to grayscale conversion is done before applying the binary threshold. This
 OTSU binary thresholding was used to finally segment the grayscale image into a binary image. This method sets a custom threshold for each kernel used. The size of the kernel used was 11 by 11. This method was used to account for different colors and levels of brightness. It also helps segment variability inside of the hand. Finger counting and segmentation in a dark environment isshown in figure 3. Although the segmentation of the hand looks much different, it is still able to count all 5 fingers.
 
 
-## Computer Vision Methods used for Finger Counting
+## Methods used for Finger Counting
 
 After binary thresholding, the find contours function is used to segment the hand. The contours are depicted with the blue lines shown inside the region of interest. To count the fingers, the convex hull is found, using the most extreme points that lie to the right, left, top, and bottom of the hand. The averages between the right and left points as well as the top and bottom points are taken to find the center. The center is marked by the green dot in the hand.
 
 Four Euclidian distances are taken, measuring the distance in between the center and each of these 4 extreme points in the convex hull. The maximum of these Euclidian distances is taken before determining the radius of the circle. A radius value of 0.85 times the maximum Euclidian distance is used to determine the size of the circle. It is drawn around the center of the convex hull. The 0.85 value was taken after experimentation but can be modified for different results.
 
-The find contours function is used to find how many segmentations lie on the circle. The circular region of interest is used as a mask. Each of the segmentations are outlined by blue boxes in the images. Since the wrist lies outside of the circle, it is important to exclude the contour region that lies at the bottom of the image. Additionally, forming a fist can cause a segmentation at the top of the hand when no fingers are being raised. This segmentation is excluded by dropping all segmentations that exceed 15 percent of the circumference. Exclusion of these segmentations is shown in image 3.
+The find contours function is used to find how many segmentations lie on the circle. The circular region of interest is used as a mask. Each of the segmentations are outlined by blue boxes in the images. Since the wrist lies outside of the circle, it is important to exclude the contour region that lies at the bottom of the image. Additionally, forming a fist can cause a segmentation at the top of the hand when no fingers are being raised. This segmentation is excluded by dropping all segmentations that exceed 15 percent of the circumference. Exclusion of these segmentations is shown.
+
+![Alt Text](/assets/images/exclude.png)
 
 There were several methods that did not work as expected. For example, excessive blurring was initially used many times with large kernel sizes. It was theorized that this blurring would minimize dark and light spots on the hand and therefore make thresholding and segmentation easier. However, this level of blurring made the edges harder to detect and did not work well when lighting conditions were changed. When little to no blurring was used, the segmentation of the hand was patchy. This can result in problems because a single finger could result in two or more segmentations. It is important to use enough blurring so that the black patches are limited to parts of the hand that are not counted for segmentation.
 

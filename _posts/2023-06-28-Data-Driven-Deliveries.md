@@ -1,5 +1,5 @@
 ---
-title: "Data-Driven Deliveries: A Tableau-Based Study"
+title: "Data-Driven Deliveries: Trends and Takeaways"
 date: 2023-06-28 00:00:00 -0700
 image: /assets/images/doordash.png
 categories: [DAA Bootcamp]

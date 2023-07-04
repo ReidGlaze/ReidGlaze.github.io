@@ -70,7 +70,6 @@ A factor that was multiplied by the maximum Euclidian distance was tested at dif
 
 The program has known limitations and possible future extensions. One problem is that the fingers must be clearly separated to segment correctly. When the Star Trek symbol is held up, the program shows only two fingers. We are unsure how to solve this problem and it could be rather difficult to solve without using more advanced libraries.
 
-![Alt Text](/assets/images/startrek.png)
 
 Sometimes, segmentations can be inaccurate due to watches or other wearables. The segmentation of the watch changes the size of the circle and can result in problems. Shadows can also alter the segmentations and cause the size of the circle to change. In this example, the circle is made to be too large and one of the fingers is not counted.
 

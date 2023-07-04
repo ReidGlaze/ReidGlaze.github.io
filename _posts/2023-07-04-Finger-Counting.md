@@ -1,5 +1,5 @@
 ---
-title: "Hand Segmentation"
+title: "Real-Time Finger Counting Powered by OpenCV"
 date: 2023-07-04 00:00:00 -0700
 image: /assets/images/CVCanva.png
 categories: [Grad School Projects]

@@ -20,3 +20,6 @@ As for my career goals, I'm setting my sights on a data analyst position, hoping
 * [https://www.linkedin.com/in/reidhglaze/](https://www.linkedin.com/in/reidhglaze/)
 
 ![by origin](/assets/images/mountains.jpg){: width="250" }
+
+
+[![Hits](https://hits.sh/reidglaze.github.io.svg)](https://hits.sh/reidglaze.github.io/)

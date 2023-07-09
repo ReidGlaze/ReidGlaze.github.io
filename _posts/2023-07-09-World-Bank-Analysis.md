@@ -17,20 +17,20 @@ By applying SQL to this data-rich context, I shed light on both these questions.
 
 ## The Project
 
-For this project, Azure Data Studio was used to run SQL. I started off with **question 1** using the import wizard tool to import two tables into my database. I used these two datasets:
+For this project, Azure Data Studio was used to run SQL. Starting out with question 1, the import wizard tool was used to import two tables into the database. These two datasets were used:
 * [IDA Statement Of Credits and Grants](https://finances.worldbank.org/Loans-and-Credits/IDA-Statement-Of-Credits-and-Grants-Historical-Dat/tdwh-3krx)
 * [World Bank Population Data](https://data.worldbank.org/indicator/SP.POP.TOTL)
 
-After importing these two tables, I wrote querys to extract important information that I would use from each of these tables and created two new, simpler tables.
+After importing these two tables, queries were used to extract important information from each of these tables and create two new, simpler tables.
 ![Alt Text](/assets/images/carbon1.png){: width="600" }
 *Creates a new table with country names and total principal issued in the past decade*
 ![Alt Text](/assets/images/carbon2.png){: width="400" }
 *Creates a new table with country names (column1) and 2013 population data (column58)*
-Next, I combined both of these tables into one table using INNER JOIN, so that the rows would match where the country names matched.
+Next, these two tables were combined into one using INNER JOIN, so that the rows would match where the country names matched.
 
 ![Alt Text](/assets/images/carbon3.png){: width="500" }
 *Creates a new table, combining the two simple tables where country names match*
-Afterwards, I used the new table to sort the countries by Principal per capita.
+Afterwards, I countries were sorted by principal per capita.
 
 ![Alt Text](/assets/images/carbon4.png){: width="400" }
 *Sorts countries by Principal per capita*

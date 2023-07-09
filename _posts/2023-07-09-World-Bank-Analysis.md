@@ -6,7 +6,7 @@ categories: [DAA Bootcamp]
 tags: [data analytics,sql]     # TAG names should always be lowercase
 ---
 
-Welcome, data enthusiasts. In my third project with the DAA bootcamp, I explored the complex landscape of International Development Association (IDA) World Bank data with SQL. The IDA, a critical arm of the World Bank Group, works tirelessly to combat poverty in the world's most vulnerable regions, allocating substantial funds for an array of projects each year.
+Welcome, data enthusiasts. In my third project with the DAA boot camp, I explored the complex landscape of International Development Association (IDA) World Bank data with SQL. The IDA, a critical arm of the World Bank Group, works tirelessly to combat poverty in the world's most vulnerable regions, allocating substantial funds for an array of projects each year.
 
 **Two key questions:**
 
@@ -66,7 +66,7 @@ The following query was used to sort the categories in descending order:
 ![Alt Text](/assets/images/carbon9.png){: width="500" }
 *Category Sorting*
 
-Fine-tuning the substrings to categorize all 58 projects woudld have been exhausting. This is why there are still many null values. However, it was still possible to extract meaningful information. In the past 10 years, India has mostly received IDA funding for education**, disaster relief & resiliance, and water supply & sanitation.
+Fine-tuning the substrings to categorize all 58 projects woudld have been exhausting. This is why there are still many null values. However, it was still possible to extract meaningful information. In the past 10 years, India has mostly received IDA funding for education, disaster relief & resiliance, and water supply & sanitation.
 
 ![Alt Text](/assets/images/categories.png){: width="500" }
 *Project Category Findings*

@@ -1,6 +1,7 @@
 ---
 title: "SQL and International Development: Analyzing IDA World Bank Data"
 date: 2023-07-09 00:00:00 -0700
+image: /assets/images/worldbank.png
 categories: [DAA Bootcamp]
 tags: [data analytics,sql]     # TAG names should always be lowercase
 ---
@@ -53,12 +54,15 @@ I **added another column** to the table using the following query:
 
 Next, I used **UPDATE** and **SET** to add a label to to this column if the Project name included specific **substrings**. Here is the an example of the query I used for "health".
 ![Alt Text](/assets/images/carbon8.png){: width="500" }
+*Adding project categories*
 
-I repeated this step for education, disaster relief or resilience, water supply & sanitation, health, roads, and agriculture.
+I **repeated** this step for education, disaster relief or resilience, water supply & sanitation, health, roads, and agriculture.
 
 ![Alt Text](/assets/images/addcolumn.png){: width="600" }
+*Project Names with Project Categories*
 
-I used the following query to sort the categories in descending order:
+
+I used the following query to **sort** the categories in descending order:
 ![Alt Text](/assets/images/carbon9.png){: width="500" }
 *Category Sorting*
 
@@ -68,8 +72,8 @@ I did not want to spend too much time fine-tuning my substrings to categorize al
 *Project Category Findings*
 
 ## Key Findings
-* In the past decade, Zimbabwe has recieved the most funding per capita from the IDA.
-* In the past decade, most of India's IDA fundings have gone towards education, disaster relief & resilience, and water supply & sanitation.
+* In the past decade, **Zimbabwe has** recieved the most funding per capita from the IDA.
+* In the past decade, most of India's IDA fundings have gone towards **education, disaster relief & resilience, and water supply & sanitation**.
 
 ## What I Learned
 * I Learned how to use Azure Data Studio.

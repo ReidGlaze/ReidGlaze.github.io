@@ -37,7 +37,11 @@ Afterwards, I used the new table to **sort** the countries by **Principal per ca
 *Zimbabwe as highest Principal per capita in the past decadee*
 This table shows the "World" as number 1 and "South Asia" as number 2. Not only are these not countries, but the information is innacurate. This is because the population data includes countries that are not funded by the IDA. For this reason, **Zimbabwe** is the winner.
 
-Moving on to question 2, I started off by creating a new table, extracting principal transactions to India in the past decade. I sorted them in descending order.
+Moving on to question 2, I started off by creating a new table, extracting IDA projects related to India in the past decade. I sorted them in descending order by principal.
 ![Alt Text](/assets/images/carbon6.png){: width="600" }
-*Exctracting Principal transactions to India*
+*Exctracting India Projects in the past decade*
+
+As you can see, it is hard to understand what some of these projects mean. Furthermore, there are 58 projects, making it difficult to understand the "big picture" without doing a lot of research.
+
+![Alt Text](/assets/images/Indiaprojects.png){: width="600" }
 

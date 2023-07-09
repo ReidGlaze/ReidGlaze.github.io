@@ -36,23 +36,23 @@ Afterwards, the countries were sorted by principal per capita.
 *Sorts countries by Principal per capita*
 ![Alt Text](/assets/images/principalpercapita.png){: width="500" }
 *Zimbabwe as highest Principal per capita in the past decadee*
-This table shows the "World" as number 1 and "South Asia" as number 2. Not only are these not countries, but the information is innacurate. This is because the population data includes countries that are not funded by the IDA. For this reason, Zimbabwe is the winner.
+This table shows the "World" as number 1 and "South Asia" as number 2. Not only are these not countries, but the information is inaccurate. This is because the population data includes countries that are not funded by the IDA. For this reason, Zimbabwe is the winner.
 
 Moving on to **question 2**, A new table was created using INTO by querying IDA projects related to India in the past decade. They were sorted in descending order by principal.
-![Alt Text](/assets/images/carbon6.png){: width="600" }
+![Alt Text](/assets/images/carbon6.png){: width="650" }
 *Exctracting India Projects in the past decade*
 
 ![Alt Text](/assets/images/Indiaprojects.png){: width="500" }
 *Project Names are hard to understand*
 
-As you can see, it is hard to understand what some of these projects mean. Furthermore, there are 58 projects, making it difficult to understand the "big picture" without doing a lot of research.
+As you can see, it is hard to understand what some of these projects mean. Furthermore, there are 58 projects, making it difficult to understand the "big picture" without doing a lot of research. In order to solve this problem, a new column was created to categorize these confusing projects into simler categories.
 
-Another column was added to the table using the following query:
+A column was added to the table using the following query:
 
 ![Alt Text](/assets/images/carbon7.png){: width="400" }
 *Adding a column*
 
-Next, UPDATE and SET were used to to add a labels to the column if the Project name included specific substrings. Here is the an example of the query used for "health".
+Next, UPDATE and SET were used to to add labels to the column if the Project name included specific substrings. Here is the an example of the query used for "health".
 ![Alt Text](/assets/images/carbon8.png){: width="500" }
 *Adding project categories*
 

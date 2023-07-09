@@ -66,7 +66,7 @@ The following query was used to sort the categories in descending order:
 ![Alt Text](/assets/images/carbon9.png){: width="500" }
 *Category Sorting*
 
-Fine-tuning the substrings to categorize all 58 projects woudld've been exhausting. This is why there are still many null values. However, it was still possible to extract meaningful information. In the past 10 years, India has mostly received IDA funding for education**, disaster relief & resiliance, and water supply & sanitation.
+Fine-tuning the substrings to categorize all 58 projects woudld have been exhausting. This is why there are still many null values. However, it was still possible to extract meaningful information. In the past 10 years, India has mostly received IDA funding for education**, disaster relief & resiliance, and water supply & sanitation.
 
 ![Alt Text](/assets/images/categories.png){: width="500" }
 *Project Category Findings*

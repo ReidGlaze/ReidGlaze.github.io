@@ -10,7 +10,7 @@ Welcome, data enthusiasts. In my third project with the DAA bootcamp, I explored
 Here are my **two key questions**:
 
 1. Over the **past decade**, which country has emerged as the **top beneficiary per capita** from the IDA's funds?
-2. India recieves many funding projects from the IDA. The project names are hard to understand it would be nice to get a simpler understanding of how these projects are categorized. How can projects funded by the IDA in the past 10 years be categorized in simpler terms.
+2. **India** recieves many funding projects from the IDA. The project names are hard to understand it would be nice to get a simpler understanding of how these projects are categorized. How can projects funded by the IDA in the past 10 years be **categorized in simpler terms?**
 
 By applying **SQL** to this data-rich context, I shed light on both these questions. So, let's embark on this journey, using SQL as our compass to navigate the vast ocean of global development funding data.
 
@@ -25,7 +25,7 @@ After importing these two tables, I wrote querys to **extract important informat
 *Creates a new table with country names and total principal issued in the past decade*
 ![Alt Text](/assets/images/carbon2.png){: width="400" }
 *Creates a new table with country names (column1) and 2013 population data (column58)*
-Next, I **combined** both of these tables into one table with INNER JOIN, so that the rows would match where the **country names matched**.
+Next, I **combined** both of these tables into one table using **INNER JOIN**, so that the rows would match where the **country names matched**.
 
 ![Alt Text](/assets/images/carbon3.png){: width="500" }
 *Creates a new table, combining the two simple tables where country names match*
@@ -44,13 +44,14 @@ Moving on to **question 2**, I started off by creating a new table, extracting I
 As you can see, it is **hard to understand** what some of these projects mean. Furthermore, there are 58 projects, making it difficult to understand the "big picture" without doing a lot of research.
 
 ![Alt Text](/assets/images/Indiaprojects.png){: width="500" }
+*Project Names are hard to understand*
 
 I **added another column** to the table using the following query:
 
 ![Alt Text](/assets/images/carbon7.png){: width="400" }
 *Adding a column*
 
-Next, I used **UPDATE** to add a label to to this column if the Project name included specific **substrings**. Here is the an example of the query I used for "health".
+Next, I used **UPDATE** and **SET** to add a label to to this column if the Project name included specific **substrings**. Here is the an example of the query I used for "health".
 ![Alt Text](/assets/images/carbon8.png){: width="500" }
 
 I repeated this step for education, disaster relief or resilience, water supply & sanitation, health, roads, and agriculture.
@@ -72,21 +73,22 @@ I did not want to spend too much time fine-tuning my substrings to categorize al
 
 ## What I Learned
 * I Learned how to use Azure Data Studio.
-* I learned how to combine 2 data sources into one meaninful table.
-* I learned how to alter tables and create categories with substrings using LIKE.
+* I learned how to combine 2 data sources into one meaninful table using INNER JOIN.
+* I learned how to use ALTER and SET to create categories with substrings using LIKE.
 * I learned how to use WHERE, GROUP BY, ORDER BY, and other functions.
 
 ## Possible Future applications
 
-Combining SQL and Python enhances data analysis by leveraging SQL's querying power and Python's machine-learning capabilities. A possible practical application of this integration highlights its potential for future data projects. I will specifically apply skills that I have learned in this article. Of course, this is just an idea. I have no idea if IDA funding alone is enough to accurately predict growth in GDP.
+Combining SQL and Python enhances data analysis by leveraging SQL's querying power and Python's machine-learning capabilities. A possible practical application of this integration highlights its potential for future data projects. I will specifically apply skills that I have learned in this example. Of course, this is just an idea. I have no idea if IDA funding alone is enough to accurately predict growth in GDP.
 
 
 **Practical Example: Analyzing Spending Categories and GDP Growth:**
 
-1. Categorize principal data using SQL as I did in problem 2. This would be done for all countries in the dataset.
-2. Import data showcasing GDP growth for each country over a period of time. Combine this data with the categorized data, like I did in problem 1.
+1. Categorize project names into simpler categories using SQL as I did in problem 2. This would be done for all countries in the dataset.
+2. Import data featuring GDP growth for each country over a period of time. Combine this data with the categorized data, like I did in problem 1.
 3. Set GDP growth as the output and set the categories as the features.
 4. Perform cross validation and find a model that yields the highest possible accuracy on the test data.
 5. Analyze the weights to see which category of spending is most effective at boosting a countries GDP.
 
+Throughout my graduate studies, Python has been my go-to language for various tasks, even for data cleaning. I can't help but wonder how much easier the process would have been if I had known about SQL. The power of SQL in handling data manipulation and querying is undeniable, and I am excited to expand my knowledge in this area. Furthermore, as I reflect on my experiences, I can't help but wonder if there's a simpler way to categorize these complex project names. If you, the reader, have any insights or suggestions on this matter, I would be genuinely curious to hear them. Learning and growing are constant endeavors, and I look forward to embracing new tools and ideas in my future endeavors. Thank you for reading!
 

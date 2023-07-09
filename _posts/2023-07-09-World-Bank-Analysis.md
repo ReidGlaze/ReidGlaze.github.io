@@ -5,12 +5,12 @@ categories: [DAA Bootcamp]
 tags: [data analytics,sql]     # TAG names should always be lowercase
 ---
 
-Welcome, data enthusiasts. In my third project with the DAA bootcamp, I explored the complex landscape of **International Development Association (IDA) World Bank data** with **SQL**. The IDA, a critical arm of the World Bank Group, works tirelessly to combat poverty in the world's most vulnerable regions, allocating substantial funds for an array of projects each year.
+Welcome, data enthusiasts. In my third project with the DAA bootcamp, I explored the complex landscape of **International Development Association (IDA)** World Bank data with **SQL**. The IDA, a critical arm of the **World Bank Group**, works tirelessly to combat poverty in the world's most vulnerable regions, allocating substantial funds for an array of projects each year.
 
 Here are my **two key questions**:
 
-* Over the **past decade**, which country has emerged as the **top beneficiary per capita** from the IDA's funds?
-* Once we've identified this country, **how have these funds been allocated** within its boundaries?
+1. Over the **past decade**, which country has emerged as the **top beneficiary per capita** from the IDA's funds?
+2. Which country has recieved the most IDA overall in the past 10 years. **How have these funds been allocated** within its boundaries?
 
 By applying **SQL** to this data-rich context, I shed light on both these questions. So, let's embark on this journey, using SQL as our compass to navigate the vast ocean of global development funding data.
 
@@ -36,3 +36,9 @@ Afterwards, I used the new table to **sort** the countries by **Principal per ca
 ![Alt Text](/assets/images/principalpercapita.png){: width="500" }
 *Zimbabwe as highest Principal per capita in the past decadee*
 This table shows the "World" as number 1 and "South Asia" as number 2. Not only are these not countries, but the information is innacurate. This is because the population data includes countries that are not funded by the IDA. For this reason, **Zimbabwe** is the winner.
+
+Moving on to question 2, I sorted the "country_principal" table I created earlier to find the country that recieved the most principal from the IDA in the past decade: Bangladesh
+![Alt Text](/assets/images/carbon5.png){: width="400" }
+*Sort countries by principal recieved in the past decade*
+![Alt Text](/assets/images/principaltotal.png){: width="500" }
+*Bangladesh recieved the most funding in the past decade*

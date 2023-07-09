@@ -28,7 +28,7 @@ After importing these two tables, queries were used to extract important informa
 *Creates a new table with country names (column1) and 2013 population data (column58)*
 Next, these two tables were combined into one using INNER JOIN, so that the rows would match where the country names matched.
 
-![Alt Text](/assets/images/carbon3.png){: width="500" }
+![Alt Text](/assets/images/carbon3.png){: width="400" }
 *Creates a new table, combining the two simple tables where country names match*
 Afterwards, the countries were sorted by principal per capita.
 

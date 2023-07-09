@@ -45,3 +45,7 @@ As you can see, it is hard to understand what some of these projects mean. Furth
 
 ![Alt Text](/assets/images/Indiaprojects.png){: width="600" }
 
+I added another column to the table using the following query:
+
+![Alt Text](/assets/images/carbon7.png){: width="400" }
+*Adding a column*

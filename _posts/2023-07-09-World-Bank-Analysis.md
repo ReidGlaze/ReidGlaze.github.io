@@ -16,7 +16,7 @@ By applying **SQL** to this data-rich context, I shed light on both these questi
 
 ## The Project
 
-For this project, I used **Azure Data Studio** to run **SQL**. I started off by using the import wizard tool to import two tables into my database. I used these two datasets:
+For this project, I used **Azure Data Studio** to run **SQL**. I started off with **question 1** using the import wizard tool to import two tables into my database. I used these two datasets:
 * [IDA Statement Of Credits and Grants](https://finances.worldbank.org/Loans-and-Credits/IDA-Statement-Of-Credits-and-Grants-Historical-Dat/tdwh-3krx)
 * [World Bank Population Data](https://data.worldbank.org/indicator/SP.POP.TOTL)
 
@@ -55,8 +55,38 @@ Next, I used **UPDATE** to add a label to to this column if the Project name inc
 
 I repeated this step for education, disaster relief or resilience, water supply & sanitation, health, roads, and agriculture.
 
-![Alt Text](/assets/images/addcolumn.png){: width="500" }
+![Alt Text](/assets/images/addcolumn.png){: width="600" }
 
-I used the following query to sort the categories in descending order
+I used the following query to sort the categories in descending order:
 ![Alt Text](/assets/images/carbon9.png){: width="500" }
+*Category Sorting*
+
+I did not want to spend too much time fine-tuning my substrings to categorize all 58 projects. This is why there are still many null values. However, I was still able to extract meaningful information from this. In the past **10 years**, **India** has mostly received **IDA funding** for **education**, **disaster relief & resiliance**, and **water supply & sanitation**.
+
 ![Alt Text](/assets/images/categories.png){: width="500" }
+*Project Category Findings*
+
+## Key Findings
+* In the past decade, Zimbabwe has recieved the most funding per capita from the IDA.
+* In the past decade, most of India's IDA fundings have gone towards education, disaster relief & resilience, and water supply & sanitation.
+
+## What I Learned
+* I Learned how to use Azure Data Studio.
+* I learned how to combine 2 data sources into one meaninful table.
+* I learned how to alter tables and create categories with substrings using LIKE.
+* I learned how to use WHERE, GROUP BY, ORDER BY, and other functions.
+
+## Possible Future applications
+
+Combining SQL and Python enhances data analysis by leveraging SQL's querying power and Python's machine-learning capabilities. A possible practical application of this integration highlights its potential for future data projects. I will specifically apply skills that I have learned in this article. Of course, this is just an idea. I have no idea if IDA funding alone is enough to accurately predict growth in GDP.
+
+
+**Practical Example: Analyzing Spending Categories and GDP Growth:**
+
+1. Categorize principal data using SQL as I did in problem 2. This would be done for all countries in the dataset.
+2. Import data showcasing GDP growth for each country over a period of time. Combine this data with the categorized data, like I did in problem 1.
+3. Set GDP growth as the output and set the categories as the features.
+4. Perform cross validation and find a model that yields the highest possible accuracy on the test data.
+5. Analyze the weights to see which category of spending is most effective at boosting a countries GDP.
+
+

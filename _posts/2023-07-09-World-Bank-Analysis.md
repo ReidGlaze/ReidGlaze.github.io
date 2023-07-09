@@ -11,7 +11,7 @@ Welcome, data enthusiasts. In my third project with the DAA bootcamp, I explored
 **Here are my two key questions**:
 
 1. Over the past decade, which country has emerged as the top beneficiary per capita from the IDA's funds?
-2. India is one of the largest beneficiaries for many IDA projects. The project names are hard to understand. It would be nice to get a simpler understanding of how these projects are categorized. How can these projects funded by the IDA in the past 10 years be categorized in simpler terms?
+2. How can the many projects supporting India in the past decade be categorized in simple terms?
 
 By applying SQL to this data-rich context, I shed light on both these questions. So, let's embark on this journey, using SQL as our compass to navigate the vast ocean of global development funding data.
 

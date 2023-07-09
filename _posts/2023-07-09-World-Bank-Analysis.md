@@ -89,7 +89,7 @@ Combining SQL and Python enhances data analysis by leveraging SQL's querying pow
 **Practical Example: Analyzing Spending Categories and GDP Growth:**
 
 1. Categorize project names into simpler categories using SQL as I did in problem 2. This would be done for all countries in the dataset.
-2. Import data featuring GDP growth for each country over a period of time. Combine this data with the categorized data, like I did in problem 1.
+2. Import data featuring GDP growth for each country over a period of time. Combine this data with the categorized data, as demonstrated in problem 1.
 3. Set GDP growth as the output and set the categories as the features.
 4. Perform cross validation and find a model that yields the highest possible accuracy on the test data.
 5. Analyze the weights to see which category of spending is most effective at boosting a countries GDP.

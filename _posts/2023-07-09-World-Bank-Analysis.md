@@ -42,10 +42,11 @@ Moving on to **question 2**, I started off by creating a new table, extracting I
 ![Alt Text](/assets/images/carbon6.png){: width="600" }
 *Exctracting India Projects in the past decade*
 
-As you can see, it is **hard to understand** what some of these projects mean. Furthermore, there are 58 projects, making it difficult to understand the "big picture" without doing a lot of research.
 
 ![Alt Text](/assets/images/Indiaprojects.png){: width="500" }
 *Project Names are hard to understand*
+
+As you can see, it is **hard to understand** what some of these projects mean. Furthermore, there are 58 projects, making it difficult to understand the "big picture" without doing a lot of research.
 
 I **added another column** to the table using the following query:
 
@@ -83,7 +84,7 @@ I did not want to spend too much time fine-tuning my substrings to categorize al
 
 ## Possible Future applications
 
-Combining SQL and Python enhances data analysis by leveraging SQL's querying power and Python's machine-learning capabilities. A possible practical application of this integration highlights its potential for future data projects. I will specifically apply skills that I have learned in this example. Of course, this is just an idea. I have no idea if IDA funding alone is enough to accurately predict growth in GDP.
+Combining SQL and Python enhances data analysis by leveraging SQL's querying power and Python's machine-learning capabilities. A possible practical application of this integration highlights its potential for future data projects. I will specifically apply skills that I have learned in this project. Of course, this is just an idea. I have no idea if IDA funding alone is enough to accurately predict growth in GDP.
 
 
 **Practical Example: Analyzing Spending Categories and GDP Growth:**

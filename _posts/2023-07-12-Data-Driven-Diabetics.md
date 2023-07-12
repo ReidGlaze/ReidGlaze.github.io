@@ -51,3 +51,22 @@ The CASE WHEN function was used to split the data into these three groups for st
 ![by origin](/assets/images/time_spent_procedures_1.png)
 ![by origin](/assets/images/time_spent_procedures_2.png){: width="300" }
 
+### Query 5: Demographics and Medicine
+
+Subsequently, a research colleague expressed interest via email in conducting a medical test. The target population included individuals of African American descent or those with an "Up" status for metformin. The task at hand was to provide a list of relevant patient IDs in the shortest possible time frame.
+
+Thanks to the UNION function, it was possible to merge the two data sets - health records and demographic information. Rather than appending columns like with a JOIN, the UNION function stacks matching data from two tables into a single column, provided the column of interest is common to both tables. In this case, that was the patient_nbr.
+
+The ensuing query was constructed to identify all pertinent patients, either African American or flagged for Metformin "Up". This information was promptly forwarded to the research team for their testing requirements.
+
+![by origin](/assets/images/race_metformin_1.png)
+![by origin](/assets/images/race_metformin_2.png){: width="150" }
+
+### Query 6: Outliers of Success
+
+The Hospital Administrator expressed interest in showcasing some of the hospital's major success stories. They were specifically interested in instances where patients were admitted due to emergencies (with an admission_type_id of 1) but managed to have a stay shorter than the hospital's average.
+
+A method employed to facilitate this was through a Common Table Expression (CTE), using the WITH function. While the query itself was relatively straightforward and easy to manage, the primary advantage of employing the WITH function was its ability to generate a variable that could be subsequently invoked without necessitating a subquery.
+
+![by origin](/assets/images/Subquery_1.png)
+![by origin](/assets/images/Subquery_2.png)

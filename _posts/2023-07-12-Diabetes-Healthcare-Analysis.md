@@ -6,13 +6,19 @@ categories: [DAA Bootcamp]
 tags: [data analytics,sql]     # TAG names should always be lowercase
 ---
 
-Efficiency and patient turnover are key aspects of hospital management, and one crucial indicator of these is the length of stay (LOS) for each hospital visit. LOS can be influenced by a range of variables, from patient demographics to the complexity of their medical condition. Gaining a deep understanding of these factors can lead to strategies that enhance hospital efficiency and improve patient care.
+In today's healthcare industry, the sheer volume of data generated can provide invaluable insights into patient outcomes, particularly for those managing chronic conditions such as diabetes. A crucial factor to consider is the length of hospital stays, as this can directly impact both patient care and hospital efficiency.
 
-In this article, we harness the power of Structured Query Language (SQL) to delve into healthcare data and examine the different variables influencing hospital LOS. Our objective is to offer valuable insights that can assist healthcare professionals and policymakers in making data-driven decisions to enhance hospital operations. Join us as we navigate through this dataset to explore what truly impacts the duration of patients' hospital stays.
+In this project, I will be assuming the role of a data analyst at a hospital, utilizing a comprehensive dataset from a decade-long study carried out across 130 U.S. hospitals. The dataset specifically pertains to the hospital stay records of diabetic patients.
+
+I'll be utilizing Structured Query Language (SQL), a robust tool for handling and interrogating complex datasets, to navigate through seven unique scenarios. Each scenario will necessitate the use of various SQL functions, such as JOINs, UNION, CASE WHEN, CONCAT, and more, to answer a specific question posed by the hospital administration. The questions range from exploring the duration of hospital stays to generating detailed reports on specific patient demographics.
 
 ## The Project
 
-### Query 1
+### Data Set
+
+The data, drawn from a decade-long study spanning 1999 to 2008 and involving over 130 hospitals in the United States, specifically features hospital stay records for diabetic patients. The dataset can be accessed [here](https://www.kaggle.com/code/iabhishekofficial/prediction-on-hospital-readmission/data?select=diabetic_data.csv), while the comprehensive hospital records and the study itself can be found [here](https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008).
+
+### Query 1: Visualizing Length of Stays
 The healthcare data analysis team lead is keen to explore the distribution of the length of hospital stays measured in days. They are particularly interested in determining whether the majority of patients have a length of stay less than 7 days. It's crucial for the hospital to confirm that any patients with stays exceeding this duration are indeed in need of acute care.
 
 Although SQL isn't traditionally associated with data visualization, an innovative approach has been implemented for some initial exploratory data analysis. This method exploits SQL's calculation functions and uses rudimentary histogram bars for data visualization. In other words, the heavy lifting of number crunching is done by SQL, and basic text characters are utilized to visually represent the data.
@@ -20,7 +26,7 @@ Although SQL isn't traditionally associated with data visualization, an innovati
 ![by origin](/assets/images/time_in_hospital_1.png)
 ![by origin](/assets/images/time_in_hospital_2.png)
 
-### Query 2
+### Query 2: Number of Procedures for Medical Specialties
 The hospital's new Director seeks to understand which medical specialties are performing the highest average number of procedures. They're interested in a comprehensive list of specialties, each with their average procedure count. The Director requested specialties with an average procedure count exceeding 2.5 and a total procedure count surpassing 50.
 
 To meet this requirement, an additional column was added to display the AVG number of procedures per specialty, grouped accordingly with the GROUP BY function. Furthermore, the ORDER BY function was used to sort these groups in descending order by average number of procedures. However, some specialties showed rounded averages, potentially due to low patient counts. Thus, the data was cleaned up using the ROUND function for a more legible decimal format. A COUNT function was applied, adding a column that highlighted the number of patients treated by each specialty.
@@ -31,14 +37,14 @@ To ensure the Director's focus remains on significant data, specialties with les
 ![by origin](/assets/images/surgery_specialty_2.png)
 
 
-### Query 3
+### Query 3: Frequency of Lab Procedures and Discrimination
 
 A request was made by the Chief of Nursing to investigate whether the hospital is demonstrating any racial bias in the frequency of lab procedures conducted. To address this inquiry, two separate databases needed to be combined: one containing the health records and the other encompassing the demographic data of patients. Utilizing the INNER JOIN function proved instrumental in aligning the patient ID numbers from both databases. Consequently, this paved the way to analyze any potential correlations between patients' racial identities and the number of lab procedures undertaken.
 
 ![by origin](/assets/images/race_1.png)
 ![by origin](/assets/images/race_2.png)
 
-### Query 4
+### Query 4: Number of Lab Procedures and Length of Stay
 The head of the hospital is interested in investigating the correlation between the quantity of laboratory procedures and the duration of patient hospital stays. They are particularly curious to determine if there's a trend indicating that patients who undergo numerous lab procedures also have extended hospital stays. For the purpose of this investigation, patients are classified into three groups based on the number of lab procedures they undergo: those with few procedures (0-25), those with an average number of procedures (25-55), and those undergoing many procedures (55+).
 
 The CASE WHEN function was used to split the data into these three groups for study. To make sure everything was working correctly, a check was done before grouping the data further. This was done by looking at the average stay in the hospital and the number of lab procedures, as shown in the next part of the report.
@@ -46,7 +52,7 @@ The CASE WHEN function was used to split the data into these three groups for st
 ![by origin](/assets/images/time_spent_procedures_1.png)
 ![by origin](/assets/images/time_spent_procedures_2.png)
 
-### Query 5
+### Query 5: Demographics and Medicine
 
 Subsequently, a research colleague expressed interest via email in conducting a medical test. The target population included individuals of African American descent or those with an "Up" status for metformin. The task at hand was to provide a list of relevant patient IDs in the shortest possible time frame.
 
@@ -57,7 +63,7 @@ The ensuing query was constructed to identify all pertinent patients, either Afr
 ![by origin](/assets/images/race_metformin_1.png)
 ![by origin](/assets/images/race_metformin_2.png)
 
-### Query 6
+### Query 6: Outliers of Success
 
 The Hospital Administrator expressed interest in showcasing some of the hospital's major success stories. They were specifically interested in instances where patients were admitted due to emergencies (with an admission_type_id of 1) but managed to have a stay shorter than the hospital's average.
 
@@ -66,7 +72,7 @@ A method employed to facilitate this was through a Common Table Expression (CTE)
 ![by origin](/assets/images/Subquery_1.png)
 ![by origin](/assets/images/Subquery_2.png)
 
-### Query 7
+### Query 7: Patient Summaries
 
 
 The Hospital Administrator requested a comprehensive overview for the top 50 patients in terms of medication intake, with any ties to be resolved based on the quantity of lab procedures conducted (those with the highest count would be prioritized). They wished to receive a structured summary following this template:

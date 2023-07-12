@@ -60,7 +60,7 @@ Thanks to the UNION function, it was possible to merge the two data sets - healt
 The ensuing query was constructed to identify all pertinent patients, either African American or flagged for Metformin "Up". This information was promptly forwarded to the research team for their testing requirements.
 
 ![by origin](/assets/images/race_metformin_1.png)
-![by origin](/assets/images/race_metformin_2.png){: width="150" }
+![by origin](/assets/images/race_metformin_2.png){: width="400" }
 
 ### Query 6: Outliers of Success
 

@@ -87,7 +87,7 @@ To fulfill this request, we employ all our previous SQL knowledge and techniques
 ## What I Learned
 
 * Visualizing Data with SQL
-* Data Aggregation Techniques
+* Use of Having after Data Aggregation
 * Merging Data with JOINs
 * Data Categorization with CASE WHEN
 * Combining Data with UNION

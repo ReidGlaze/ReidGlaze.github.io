@@ -17,3 +17,21 @@ I'll be utilizing Structured Query Language (SQL), a robust tool for handling an
 ### Tools & Data Set
 
 For this project Azure Data Studio was used. The MySQL plugin was used in order to use the MySQL format instead of T-SQL. The data, drawn from a decade-long study spanning 1999 to 2008 and involving over 130 hospitals in the United States, specifically features hospital stay records for diabetic patients. The dataset can be accessed [here](https://www.kaggle.com/code/iabhishekofficial/prediction-on-hospital-readmission/data?select=diabetic_data.csv), while the comprehensive hospital records and the study itself can be found [here](https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008).
+
+### Query 1: Visualizing Length of Stays
+The healthcare data analysis team lead is keen to explore the distribution of the length of hospital stays measured in days. They are particularly interested in determining whether the majority of patients have a length of stay less than 7 days. It's crucial for the hospital to confirm that any patients with stays exceeding this duration are indeed in need of acute care.
+
+Although SQL isn't traditionally associated with data visualization, an innovative approach has been implemented for some initial exploratory data analysis. This method exploits SQL's calculation functions and uses rudimentary histogram bars for data visualization. In other words, the heavy lifting of number crunching is done by SQL, and basic text characters are utilized to visually represent the data.
+
+![by origin](/assets/images/time_in_hospital_1.png){: width="500" }
+![by origin](/assets/images/time_in_hospital_2.png)
+
+### Query 2: Number of Procedures for Medical Specialties
+The hospital's new Director seeks to understand which medical specialties are performing the highest average number of procedures. They're interested in a comprehensive list of specialties, each with their average procedure count. The Director requested specialties with an average procedure count exceeding 2.5 and a total procedure count surpassing 50.
+
+To meet this requirement, an additional column was added to display the AVG number of procedures per specialty, grouped accordingly with the GROUP BY function. Furthermore, the ORDER BY function was used to sort these groups in descending order by average number of procedures. However, some specialties showed rounded averages, potentially due to low patient counts. Thus, the data was cleaned up using the ROUND function for a more legible decimal format. A COUNT function was applied, adding a column that highlighted the number of patients treated by each specialty.
+
+To ensure the Director's focus remains on significant data, specialties with less than 50 patients were filtered out. This was achieved using the HAVING function, which effectively filters on aggregated rather than individual rows, ensuring only specialties treating more than 50 patients were included in the final list.
+
+![by origin](/assets/images/surgery_specialty_1.png)
+![by origin](/assets/images/surgery_specialty_2.png){: width="500" }

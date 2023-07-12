@@ -33,7 +33,10 @@ To ensure the Director's focus remains on significant data, specialties with les
 
 ### Query 3
 
+A request was made by the Chief of Nursing to investigate whether the hospital is demonstrating any racial bias in the frequency of lab procedures conducted. To address this inquiry, two separate databases needed to be combined: one containing the health records and the other encompassing the demographic data of patients. Utilizing the INNER JOIN function proved instrumental in aligning the patient ID numbers from both databases. Consequently, this paved the way to analyze any potential correlations between patients' racial identities and the number of lab procedures undertaken.
 
+![by origin](/assets/images/race_1.png)
+![by origin](/assets/images/race_2.png)
 
 ### Query 4
 The head of the hospital is interested in investigating the correlation between the quantity of laboratory procedures and the duration of patient hospital stays. They are particularly curious to determine if there's a trend indicating that patients who undergo numerous lab procedures also have extended hospital stays. For the purpose of this investigation, patients are classified into three groups based on the number of lab procedures they undergo: those with few procedures (0-25), those with an average number of procedures (25-55), and those undergoing many procedures (55+).

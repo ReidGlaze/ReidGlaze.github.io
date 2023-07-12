@@ -12,6 +12,7 @@ In this article, we harness the power of Structured Query Language (SQL) to delv
 
 ## The Project
 
+### Query 1
 The healthcare data analysis team lead is keen to explore the distribution of the length of hospital stays measured in days. They are particularly interested in determining whether the majority of patients have a length of stay less than 7 days. It's crucial for the hospital to confirm that any patients with stays exceeding this duration are indeed in need of acute care.
 
 Although SQL isn't traditionally associated with data visualization, an innovative approach has been implemented for some initial exploratory data analysis. This method exploits SQL's calculation functions and uses rudimentary histogram bars for data visualization. In other words, the heavy lifting of number crunching is done by SQL, and basic text characters are utilized to visually represent the data.
@@ -19,6 +20,7 @@ Although SQL isn't traditionally associated with data visualization, an innovati
 ![by origin](/assets/images/time_in_hospital_1.png)
 ![by origin](/assets/images/time_in_hospital_2.png)
 
+### Query 2
 The hospital's new Director seeks to understand which medical specialties are performing the highest average number of procedures. They're interested in a comprehensive list of specialties, each with their average procedure count. The Director requested specialties with an average procedure count exceeding 2.5 and a total procedure count surpassing 50.
 
 To meet this requirement, an additional column was added to display the AVG number of procedures per specialty, grouped accordingly with the GROUP BY function. Furthermore, the ORDER BY function was used to sort these groups in descending order by average number of procedures. However, some specialties showed rounded averages, potentially due to low patient counts. Thus, the data was cleaned up using the ROUND function for a more legible decimal format. A COUNT function was applied, adding a column that highlighted the number of patients treated by each specialty.
@@ -27,3 +29,16 @@ To ensure the Director's focus remains on significant data, specialties with les
 
 ![by origin](/assets/images/surgery_specialty_1.png)
 ![by origin](/assets/images/surgery_specialty_2.png)
+
+
+### Query 3
+
+
+
+### Query 4
+The head of the hospital is interested in investigating the correlation between the quantity of laboratory procedures and the duration of patient hospital stays. They are particularly curious to determine if there's a trend indicating that patients who undergo numerous lab procedures also have extended hospital stays. For the purpose of this investigation, patients are classified into three groups based on the number of lab procedures they undergo: those with few procedures (0-25), those with an average number of procedures (25-55), and those undergoing many procedures (55+).
+
+The CASE WHEN function was used to split the data into these three groups for study. To make sure everything was working correctly, a check was done before grouping the data further. This was done by looking at the average stay in the hospital and the number of lab procedures, as shown in the next part of the report.
+
+![by origin](/assets/images/time_spent_procedures_1.png)
+![by origin](/assets/images/time_spent_procedures_2.png)

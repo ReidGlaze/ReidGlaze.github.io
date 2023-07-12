@@ -70,3 +70,33 @@ A method employed to facilitate this was through a Common Table Expression (CTE)
 
 ![by origin](/assets/images/Subquery_1.png)
 ![by origin](/assets/images/Subquery_2.png)
+
+### Query 7: Patient Summaries
+
+The Hospital Administrator requested a comprehensive overview for the top 50 patients in terms of medication intake, with any ties to be resolved based on the quantity of lab procedures conducted (those with the highest count would be prioritized). They wished to receive a structured summary following this template:
+"Patient 2383 was Caucasian and was readmitted. They had 21 medications and 32 lab procedures."
+In this template, all the elements in bold are dynamic and will change according to the actual data; the rest of the text remains constant in each entry.
+
+To fulfill this request, we employ all our previous SQL knowledge and techniques, incorporating the CONCAT function. This function is instrumental in including textual elements or strings in our query, not just numerical data. What follows is the configuration of the query implemented for this purpose.
+
+![by origin](/assets/images/Sentence_1.png)
+![by origin](/assets/images/Sentence_2.png)
+
+## What I Learned
+
+* Visualizing Data with SQL
+* Use of HAVING after Data Aggregation
+* Merging Data with JOINs
+* Data Categorization with CASE WHEN
+* Combining Data with UNION
+* Utilizing CTEs for Readability
+* Handling Textual Data with CONCAT
+
+## Conclusion
+
+This project served as an enlightening exploration into the versatility of SQL in the context of healthcare data analysis. From providing insights into hospital stay durations, revealing procedural trends among medical specialties, detecting potential racial biases, to generating customized patient reports - the utility of SQL was clearly showcased.
+
+Various SQL functions were used - JOINs, UNION, CASE WHEN, CONCAT, and more, demonstrating how they can be effectively used to extract meaningful information from complex healthcare data. These powerful functions allow data analysts to manipulate, transform, and present data in ways that help decision-makers make informed, data-driven choices.
+
+This journey was not just about understanding how to apply SQL, but more importantly, how to leverage it to create narratives, highlight patterns, and inform strategic decisions. Ultimately, the intersection of healthcare and data analytics, as highlighted in this project, points towards an exciting future where data-driven insights can contribute significantly to enhancing hospital efficiency and patient care.
+

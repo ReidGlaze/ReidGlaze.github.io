@@ -31,6 +31,5 @@ Finally, ORDER BY was used to sort the principal disbursements per capita in the
 
 Moving on to **question 2**, IDA principal disbursements in the past decade were grouped by project name. GROUP BY and SUM were used to add principal disbursements with identical project names. They were sorted in descending order by principal with ORDER BY.
 
-![Alt Text](/assets/images/fixed2-1.png){: width="500" }
-![Alt Text](/assets/images/fixed2-2.png){: width="500" }
+
 

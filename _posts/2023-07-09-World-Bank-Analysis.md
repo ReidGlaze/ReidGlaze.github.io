@@ -33,3 +33,10 @@ Moving on to **question 2**, IDA principal disbursements in the past decade were
 
 ![Alt Text](/assets/images/fixed2_1.png){: width="600" }
 ![Alt Text](/assets/images/fixed2_2.png){: width="600" }
+
+As you can see, it is hard to understand what some of these projects mean. Furthermore, there are 58 projects, making it difficult to understand the "big picture" without doing a lot of research. In order to solve this problem, a new column was created to categorize these confusing projects into simler categories. The output was saved to a new table using INTO.
+
+![Alt Text](/assets/images/fixed3_1.png){: width="600" }
+![Alt Text](/assets/images/fixed3_2.png){: width="500" }
+
+

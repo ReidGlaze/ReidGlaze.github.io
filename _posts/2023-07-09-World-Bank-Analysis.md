@@ -27,17 +27,8 @@ Next, the CTE was combined with the population data using INNER JOIN. In additio
 
 Finally, ORDER BY was used to sort the principal disbursements per capita in the last 10 years in descending order. Tuvalu received the most principal per capita in the past decade.
 ![Alt Text](/assets/images/fixed_query_1.png){: width="600" }
-![Alt Text](/assets/images/fixed_query_1.png){: width="500" }
+![Alt Text](/assets/images/fixed_query_2.png){: width="500" }
 
-![Alt Text](/assets/images/carbon3.png){: width="400" }
-*Creates a new table, combining the two simple tables where country names match*
-Afterwards, the countries were sorted by principal per capita.
-
-![Alt Text](/assets/images/carbon4.png){: width="400" }
-*Sorts countries by Principal per capita*
-![Alt Text](/assets/images/principalpercapita.png){: width="500" }
-*Zimbabwe as highest Principal per capita in the past decadee*
-This table shows the "World" as number 1 and "South Asia" as number 2. Not only are these not countries, but the information is inaccurate. This is because the population data includes countries that are not funded by the IDA. For this reason, Zimbabwe is the winner.
 
 Moving on to **question 2**, A new table was created using INTO by querying IDA projects related to India in the past decade. They were sorted in descending order by principal.
 ![Alt Text](/assets/images/carbon6.png){: width="650" }

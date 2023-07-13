@@ -32,19 +32,19 @@ Finally, ORDER BY was used to sort the principal disbursements per capita in the
 
 Moving on to **question 2**, IDA principal disbursements in the past decade were grouped by project name. GROUP BY and SUM were used to add principal disbursements with identical project names. They were sorted in descending order by principal with ORDER BY.
 
-![Alt Text](/assets/images/fixed_2_1.png){: width="500" }
-![Alt Text](/assets/images/fixed_2_2.png){: width="500" }
+![Alt Text](/assets/images/fixed2-1.png){: width="500" }
+![Alt Text](/assets/images/fixed2-2.png){: width="500" }
 
 As you can see, it is hard to understand what some of these projects mean. Furthermore, there are 58 projects, making it difficult to understand the "big picture" without doing a lot of research. In order to solve this problem, a new column was created to categorize these confusing projects into simler categories. The output was saved to a new table using INTO.
 
-![Alt Text](/assets/images/fixed_3_1.png){: width="600" }
-![Alt Text](/assets/images/fixed_3_2.png){: width="500" }
+![Alt Text](/assets/images/fixed3-1.png){: width="600" }
+![Alt Text](/assets/images/fixed3-2.png){: width="500" }
 
 
 
 
 The following query was used to sort the categories in descending order:
-![Alt Text](/assets/images/carbon9.png){: width="500" }
+
 *Category Sorting*
 
 Fine-tuning the substrings to categorize all 58 projects woudld have been exhausting. This is why there are still many null values. However, it was still possible to extract meaningful information. In the past 10 years, India has mostly received IDA funding for education, disaster relief & resiliance, and water supply & sanitation.

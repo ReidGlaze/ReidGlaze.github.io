@@ -35,21 +35,12 @@ Moving on to **question 2**, IDA principal disbursements in the past decade were
 ![Alt Text](/assets/images/fixed_2_1.png){: width="500" }
 ![Alt Text](/assets/images/fixed_2_2.png){: width="500" }
 
-As you can see, it is hard to understand what some of these projects mean. Furthermore, there are 58 projects, making it difficult to understand the "big picture" without doing a lot of research. In order to solve this problem, a new column was created to categorize these confusing projects into simler categories.
+As you can see, it is hard to understand what some of these projects mean. Furthermore, there are 58 projects, making it difficult to understand the "big picture" without doing a lot of research. In order to solve this problem, a new column was created to categorize these confusing projects into simler categories. The output was saved to a new table using INTO.
 
-A column was added to the table using the following query:
+![Alt Text](/assets/images/fixed_3_1.png){: width="600" }
+![Alt Text](/assets/images/fixed_3_2.png){: width="500" }
 
-![Alt Text](/assets/images/carbon7.png){: width="400" }
-*Adding a column*
 
-Next, UPDATE and SET were used to to add labels to the column if the Project name included specific substrings. Here is the an example of the query used for "health".
-![Alt Text](/assets/images/carbon8.png){: width="500" }
-*Adding project categories*
-
-This step was repeated for education, disaster relief or resilience, water supply & sanitation, health, roads, and agriculture.
-
-![Alt Text](/assets/images/addcolumn.png){: width="600" }
-*Project Names with Project Categories*
 
 
 The following query was used to sort the categories in descending order:

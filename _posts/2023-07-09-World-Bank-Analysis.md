@@ -21,7 +21,13 @@ For this project, Azure Data Studio was used to run SQL. Starting out with **que
 * [IDA Statement Of Credits and Grants](https://finances.worldbank.org/Loans-and-Credits/IDA-Statement-Of-Credits-and-Grants-Historical-Dat/tdwh-3krx)
 * [World Bank Population Data](https://data.worldbank.org/indicator/SP.POP.TOTL)
 
+After importing these two tables, a CTE was created. A CTE works similarly to a subquery, but it is much easier to read. The CTE was used to extract principal disbursements that occurred exclusively in the past decade. Additionally, SUM was used along with GROUP BY to find the total amount of principal for each country within this time period.
 
+Next, the CTE was combined with the population data using INNER JOIN. In addition to country and principal columns, a column was selected that represented the population data for each country from 2013. Additionally, a column was created that showcased the principal column divided by the 2013 population.
+
+Finally, ORDER BY was used to sort the principal disbursements per capita in the last 10 years in descending order. Tuvalu received the most principal per capita in the past decade.
+![Alt Text](/assets/images/fixed_query_1.png){: width="600" }
+![Alt Text](/assets/images/fixed_query_1.png){: width="500" }
 
 ![Alt Text](/assets/images/carbon3.png){: width="400" }
 *Creates a new table, combining the two simple tables where country names match*

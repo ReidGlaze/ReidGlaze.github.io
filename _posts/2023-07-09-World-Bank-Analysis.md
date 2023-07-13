@@ -39,4 +39,34 @@ As you can see, it is hard to understand what some of these projects mean. Furth
 ![Alt Text](/assets/images/fixed3_1.png){: width="600" }
 ![Alt Text](/assets/images/fixed3_2.png){: width="500" }
 
+The following query was used to aggregate the principal and group the samples by category.
+
+![Alt Text](/assets/images/fixed4_1.png){: width="600" }
+![Alt Text](/assets/images/fixed4_2.png){: width="500" }
+
+Fine-tuning the substrings to categorize the hundreds projects would have been exhausting. This is why there are still many "other" values. However, it was still possible to extract meaningful information. In the past 10 years, India has mostly received IDA funding for education, agriculture, and water & sanitation.
+
+## Key Findings
+* In the past decade, Zimbabwe has recieved the most funding per capita from the IDA.
+* In the past decade, most of India's IDA fundings have gone towards education, disaster relief & resilience, and water supply & sanitation.
+
+## What I Learned
+* I Learned how to use Azure Data Studio.
+* I learned how to combine 2 data sources into one meaninful table using INNER JOIN.
+* I learned how to use CASE and LIKE.
+* I learned how to use WHERE, GROUP BY, ORDER BY, and other functions.
+
+## Possible Future applications
+
+Combining SQL and Python enhances data analysis by leveraging SQL's querying power and Python's machine-learning capabilities. A possible practical application of this integration highlights its potential for future data projects. I will specifically apply skills that I have learned in this project. Of course, this is just an idea. I have no idea if IDA funding alone is enough to accurately predict growth in GDP.
+
+**Practical Example: Analyzing Spending Categories and GDP Growth:**
+
+1. Categorize project names into simpler categories using SQL as I did in problem 2. This would be done for all countries in the dataset.
+2. Import data featuring GDP growth for each country over a period of time. Combine this data with the categorized data, as demonstrated in problem 1.
+3. Set GDP growth as the output and set the categories as the features.
+4. Perform cross validation and find a model that yields the highest possible accuracy on the test data.
+5. Analyze the weights to see which category of spending is most effective at boosting a countries GDP.
+
+Throughout my graduate studies, Python has been my go-to language for various tasks, even for data cleaning. I can't help but wonder how much easier the process would have been if I had known about SQL. The power of SQL in handling data manipulation and querying is undeniable, and I am excited to expand my knowledge in this area. Furthermore, as I reflect on my experiences, I can't help but wonder if there's a simpler way to categorize these complex project names. If you, the reader, have any insights or suggestions on this matter, I would be genuinely curious to hear them. 
 

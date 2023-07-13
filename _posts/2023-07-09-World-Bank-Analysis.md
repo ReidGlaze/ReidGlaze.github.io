@@ -27,15 +27,13 @@ Next, the CTE was combined with the population data using INNER JOIN. In additio
 
 Finally, ORDER BY was used to sort the principal disbursements per capita in the last 10 years in descending order. Tuvalu received the most principal per capita in the past decade.
 ![Alt Text](/assets/images/fixed_query_1.png){: width="600" }
-![Alt Text](/assets/images/fixed_query_2.png){: width="500" }
+![Alt Text](/assets/images/fixed_query_2.png){: width="600" }
 
 
-Moving on to **question 2**, A new table was created using INTO by querying IDA projects related to India in the past decade. They were sorted in descending order by principal.
-![Alt Text](/assets/images/carbon6.png){: width="650" }
-*Exctracting India Projects in the past decade*
+Moving on to **question 2**, IDA principal disbursements in the past decade were grouped by project name. GROUP BY and SUM were used to add principal disbursements with identical project names. They were sorted in descending order by principal with ORDER BY.
 
-![Alt Text](/assets/images/Indiaprojects.png){: width="500" }
-*Project Names are hard to understand*
+![Alt Text](/assets/images/fixed_2_1.png){: width="500" }
+![Alt Text](/assets/images/fixed_2_2.png){: width="500" }
 
 As you can see, it is hard to understand what some of these projects mean. Furthermore, there are 58 projects, making it difficult to understand the "big picture" without doing a lot of research. In order to solve this problem, a new column was created to categorize these confusing projects into simler categories.
 

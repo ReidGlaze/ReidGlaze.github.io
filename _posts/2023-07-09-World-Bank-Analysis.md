@@ -34,21 +34,22 @@ Moving on to **question 2**, IDA principal disbursements in the past decade were
 ![Alt Text](/assets/images/fixed2_1.png){: width="600" }
 ![Alt Text](/assets/images/fixed2_2.png){: width="600" }
 
-As you can see, it is hard to understand what some of these projects mean. Furthermore, there are 58 projects, making it difficult to understand the "big picture" without doing a lot of research. In order to solve this problem, a new column was created to categorize these confusing projects into simler categories. The output was saved to a new table using INTO.
+As you can see, it is hard to understand what some of these projects mean. Furthermore, there are hundreds of projects, making it difficult to understand the "big picture" without doing a lot of research. In order to mitigate this problem, a query was used to group these project names into simpler categories. A CTE was used with CASE in order to group the project names by substrings. 
 
-![Alt Text](/assets/images/fixed3_1.png){: width="600" }
+![Alt Text](/assets/images/query2combined.png){: width="600" }
+
+Here is what the table queried from the CTE looked like, ordered by principal in descending order.
 ![Alt Text](/assets/images/fixed3_2.png){: width="500" }
 
-The following query was used to aggregate the principal and group the samples by category.
+After the CTE was created, the project names were grouped into categories and SUM was used to find the total principal disbursements for each category.
 
-![Alt Text](/assets/images/fixed4_1.png){: width="600" }
 ![Alt Text](/assets/images/fixed4_2.png){: width="500" }
 
-Fine-tuning the substrings to categorize the hundreds projects would have been exhausting. This is why there are still many "other" values. However, it was still possible to extract meaningful information. In the past 10 years, India has mostly received IDA funding for education, agriculture, and water & sanitation.
+Fine-tuning the substrings to categorize the hundreds projects would have been exhausting. This is why there are still many "other" values. However, it was still possible to extract meaningful information. In the past 10 years, India has mostly received IDA funding for education, agriculture, and water & sanitation. For this query, there is a large amount of bias. This is because many of the project names are very specific and can easily be miscategorized.
 
 ## Key Findings
-* In the past decade, Zimbabwe has recieved the most funding per capita from the IDA.
-* In the past decade, most of India's IDA fundings have gone towards education, disaster relief & resilience, and water supply & sanitation.
+* In the past decade, Tuvalu has recieved the most funding per capita from the IDA.
+* In the past decade, most of India's IDA fundings have gone towards education, agriculture, and water supply & sanitation.
 
 ## What I Learned
 * I Learned how to use Azure Data Studio.
@@ -58,13 +59,13 @@ Fine-tuning the substrings to categorize the hundreds projects would have been e
 
 ## Possible Future applications
 
-Combining SQL and Python enhances data analysis by leveraging SQL's querying power and Python's machine-learning capabilities. A possible practical application of this integration highlights its potential for future data projects. I will specifically apply skills that I have learned in this project. Of course, this is just an idea. I have no idea if IDA funding alone is enough to accurately predict growth in GDP.
+Combining SQL and Python enhances data analysis by leveraging SQL's querying power and Python's machine-learning capabilities. A possible practical application of this integration highlights its potential for future data projects. I will specifically apply skills that I have learned in this project. Of course, this is just an idea. I have no idea if IDA funding alone is enough to accurately predict growth in GDP. 
 
 **Practical Example: Analyzing Spending Categories and GDP Growth:**
 
 1. Categorize project names into simpler categories using SQL as I did in problem 2. This would be done for all countries in the dataset.
 2. Import data featuring GDP growth for each country over a period of time. Combine this data with the categorized data, as demonstrated in problem 1.
-3. Set GDP growth as the output and set the categories as the features.
+3. Set GDP growth as the output and set the categories as the features. One-hot-encode the feature data.
 4. Perform cross validation and find a model that yields the highest possible accuracy on the test data.
 5. Analyze the weights to see which category of spending is most effective at boosting a countries GDP.
 

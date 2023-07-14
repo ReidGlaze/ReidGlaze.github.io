@@ -38,7 +38,7 @@ As you can see, it is hard to understand what some of these projects mean. Furth
 
 ![Alt Text](/assets/images/query2combined.png){: width="600" }
 
-Here is what the table queried from the CTE looked like, ordered by principal in descending order.
+Here is what the table queried from the CTE alone looks like, ordered by principal in descending order.
 ![Alt Text](/assets/images/fixed3_2.png){: width="500" }
 
 After the CTE was created, the project names were grouped into categories and SUM was used to find the total principal disbursements for each category.
@@ -53,7 +53,8 @@ Fine-tuning the substrings to categorize the hundreds projects would have been e
 
 ## What I Learned
 * I Learned how to use Azure Data Studio.
-* I learned how to combine 2 data sources into one meaninful table using INNER JOIN.
+* I learned how to use CTEs
+* I learned how to combine 2 data sources into one meaningful table using INNER JOIN.
 * I learned how to use CASE and LIKE.
 * I learned how to use WHERE, GROUP BY, ORDER BY, and other functions.
 

@@ -61,4 +61,16 @@ Running Xtrain.info() indicated that there were 54 columns. The image below show
 
 ![by origin](/assets/images/onehotencoderesults.png){: width="600" }
 
+## Cross Validation
+
+After one-hot-encoding, the training data was split into training and validation sets using sklearn. Since there was no yTest data given, it was necessary to split the training data into training and validation data. This way, the model could be built on the training data and tested for accuracy on the validation data. The code shown below was used to split the training data into 70% training data and 30% validation data.
+
+![by origin](/assets/images/testtrainsplit.png)
+
+Sizes of the Datasets:
+* X train: (4292, 54)
+* X val: (1840, 54)
+* X test: (2628, 54)
+* y train: (4292, 1)
+* y val: (1840, 1)
 

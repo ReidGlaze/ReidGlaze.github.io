@@ -19,3 +19,20 @@ This data was originally taken from Kaggle, available [here](https://www.kaggle.
 * Azure Data Studio - This was used to write T-SQL scripts and to write Python in Jupyter Notebooks.
 * Microsoft Azure Portal - This was used to host the Server and Database. It includes $200 of free credits for new users.
 * Pyodbc Library - This was used to connect the server to Python and use the SQL queries inside of Jupyter.
+
+## Unsuccessful Methods
+* SQLite - This is great for using SQL and Python together. However, it does not allow you to format features as dates. It worked, but it would not have been a good example for this project.
+* MYSQL - I had trouble using the import wizard. I prefer the one on Azure Data Studio.
+* Hosting Locally on Azure Data Studio - I am able to host a server locally through Docker. However, I was unsuccessful when trying to connect it with myodbc. I have a newer Mac that uses an ARM processor, so this may have complicated things.
+
+## The Query
+
+If you look at the [XTrain](https://github.com/ReidGlaze/Machine_Learning/blob/main/Homework%204/XTrain.csv) data, you will see the data in the format that it was given. The date was given in the MM/DD/YYYY format. The following query was used to convert the column to the datetime format. The "103" key was used for this specific starting format. Furthermore, DATEPART was used to find out the specific day of the week and the month for each date. CASE was used to determine if that day was a weekend or not. These are all important features that can predict the number of bike rentals on a given day. Trivial features were excluded from the query.
+
+![by origin](/assets/images/Xtrain_query.png){: width="700" }
+
+The output of this query is shown below.
+
+![by origin](/assets/images/Xtrain_query_output.png)
+
+XTest can be queried in a similar fashion.

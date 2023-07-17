@@ -141,3 +141,7 @@ This predictive model holds immense value for a bike rental business. With this,
 Moreover, it can help with staffing decisions as personnel can be allocated according to anticipated demand. This further optimizes costs and improves customer service, as the business can ensure adequate staff is available when demand is high.
 
 Ultimately, the individual successfully completed the project, achieving a high R2 score on the test data. The outcomes not only demonstrate the effectiveness of combining Python and SQL in predictive modeling but also highlight how data science can deliver tangible benefits to businesses by enabling them to make data-driven decisions, optimize their operations, and save money.
+
+[See the dode for this project (Python only Version)](https://github.com/ReidGlaze/Machine_Learning/blob/main/Homework%204/Reid_Glaze_HW4.ipynb)
+
+[Read this article on my portfolio website](https://reidglaze.github.io/posts/Bike-Rental-Predictions/)

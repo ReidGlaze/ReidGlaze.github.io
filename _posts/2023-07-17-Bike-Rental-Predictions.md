@@ -36,3 +36,18 @@ The output of this query is shown below.
 ![by origin](/assets/images/Xtrain_query_output.png)
 
 XTest can be queried in a similar fashion.
+
+## Using a SQL Query in Jupyter Notebook
+After the server was created in [MS Azure](https://portal.azure.com/), the following code was ran in Jupyter to connect the server. Of course, if you wish to replicate this, you will need to enter custom information about your server. Using MS Azure, this information can be found by clicking on your database and then clicking "connection strings" in the menu on the left.
+
+![by origin](/assets/images/pyodbc.png){: width="700" }
+
+Next, the output of queries were converted into pandas dataframes. The queries for XTrain, XTest, and yTrain are shown below. As you can see, there is some code used to filter out a warning. This warning suggested using SQLAlchemy. However, using pyodbc didn't cause any problems for me so I chose to ignore it.
+
+![by origin](/assets/images/query_jupyter.png)
+
+Printing Xtrain.head() in a new cell resulted in a dataframe that looked identical to the one queried earlier in SQL. This meant that my connection was succesful and I could move on to feature engineering and model building. How exciting!
+
+![by origin](/assets/images/query_output.png)
+
+

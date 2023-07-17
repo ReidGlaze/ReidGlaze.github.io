@@ -80,3 +80,7 @@ Sizes of the Datasets:
  
 ![by origin](/assets/images/seaborn.png)
 ![by origin](/assets/images/fixskew.png)
+
+## Training the Model
+
+![by origin](/assets/images/xgboost.png)

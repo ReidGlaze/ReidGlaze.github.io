@@ -11,3 +11,11 @@ This data science project centered around predicting bike rental demand, a pivot
 Recently, after acquiring SQL skills, I decided to revisit the project. The goal was to identify hidden patterns and create accurate prediction models using both SQL for data querying and manipulation, and Python for data exploration, preprocessing, and feature engineering. Together with machine learning techniques, I was able to generate precise forecasts and gain a deeper understanding of the bike rental dynamics in Seoul.
 
 This endeavor represents a fusion of my earlier work and new skills, leveraging the synergy of SQL and Python to improve data management efficiency and uncover more profound insights from the Seoul-based dataset, which could potentially shift our understanding of urban transportation dynamics.
+
+## Dataset
+This data was originally taken from Kaggle, available [here](https://www.kaggle.com/datasets/saurabhshahane/seoul-bike-sharing-demand-prediction). For this specific assignment, I was given a variation of this dataset. I was given [XTrain](https://github.com/ReidGlaze/Machine_Learning/blob/main/Homework%204/XTrain.csv), [yTrain](https://github.com/ReidGlaze/Machine_Learning/blob/main/Homework%204/yTrain.csv), and [XTest](https://github.com/ReidGlaze/Machine_Learning/blob/main/Homework%204/XTest.csv) csv files. yTest was not given. Instead, the predicted values were submitted to Kaggle and an accuracy score was returned. 
+
+## Tools Used
+* Azure Data Studio - This was used to write T-SQL scripts and to write Python in Jupyter Notebooks.
+* Microsoft Azure Portal - This was used to host the Server and Database. It includes $200 of free credits for new users.
+* Pyodbc Library - This was used to connect the server to Python and use the SQL queries inside of Jupyter.

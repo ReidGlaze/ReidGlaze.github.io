@@ -1,6 +1,6 @@
 ---
 title: "Pedal Prophets: Harnessing ML, Python, and SQL to Forecast Seoul's Bike Rentals"
-date: 2023-07-16 00:00:00 -0700
+date: 2023-07-17 00:00:00 -0700
 image: /assets/images/bikecanva.png
 categories: [Grad School Projects]
 tags: [data analytics,sql,python,data science,machine learning]     # TAG names should always be lowercase
@@ -49,5 +49,16 @@ Next, the output of queries were converted into pandas dataframes. The queries f
 Printing Xtrain.head() in a new cell resulted in a dataframe that looked identical to the one queried earlier in SQL. This meant that my connection was succesful and I could move on to feature engineering and model building. How exciting!
 
 ![by origin](/assets/images/query_output.png)
+
+## One Hot Encoding
+After my important features were selected, It was necessary to perform one hot encoding on the categorical data. One-hot encoding is a method used in machine learning to convert categorical data (like colors or types) into a numerical format that algorithms can understand. For each category, a new binary column is created, where "1" represents the presence of the category and "0" represents its absence. This transforms the categorical data into a machine-readable format without introducing an artificial order or importance among categories.
+
+While one-hot-encoding can be done in SQL, pandas makes this relatively easy do do in Python. The columns that were to be one-hot-encoded were labeled as "category" type. Then the get dummies function was used to complete the process. The code to perform one-hot-encoding in Xtrain is shown below. This was also done for Xtest.
+
+![by origin](/assets/images/onehotencode.png)
+
+Running Xtrain.info() indicated that there were 54 columns. The image below shows how the "month" and "day_of_week" columns were one-hot-encoded.
+
+![by origin](/assets/images/onehotencoderesults.png){: width="600" }
 
 

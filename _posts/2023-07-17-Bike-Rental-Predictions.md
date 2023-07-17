@@ -76,5 +76,10 @@ Sizes of the Datasets:
 
 ## Fixing the output distribution
 
-As you can see, the output was initially skewed right. Machine learning models work much better when the output has a normal distribution. In order to fix this, a square root was applied to the X train output. The distributions before applying the square root and after application are shown with Seaborn.
+ Machine learning models work much better when the output has a normal distribution. However, the output of X train was skewed right. In order to fix this, a square root was applied to the X train output. 
+ 
+![by origin](/assets/images/seaborn.png)
+
+ The distributions before applying the square root and after application are shown with Seaborn.
+
 ![by origin](/assets/images/fixskew.png)

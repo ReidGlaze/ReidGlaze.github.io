@@ -76,11 +76,35 @@ Sizes of the Datasets:
 
 ## Fixing the output distribution
 
- Machine learning models work much better when the output has a normal distribution. However, the output of X train was skewed right. In order to fix this, a square root was applied to the X train output.  The distributions before applying the square root and after application are shown with Seaborn.
+ Machine learning models work much better when the output has a normal distribution. However, the output of X train was skewed right. In order to fix this, a square root was applied to the X train output.  The distributions before applying the square root and after application are shown with Seaborn. This step should also be done with the validation data.
  
 ![by origin](/assets/images/seaborn.png)
 ![by origin](/assets/images/fixskew.png)
 
 ## Training the Model
 
+Several models were tried, but XGBoost yielded the highest R2 score on the validation data. The hyperparameters were also altered for optimal performance.
+
 ![by origin](/assets/images/xgboost.png)
+
+The R2 scores returned were:
+* R2 on training: 0.9988912357447004
+* R2 on validation: 0.9343343223928372
+
+Unfortunately, the Kaggle competition is now closed and I can no longer retrieve the validation score for the test data. However, I remember it being very similar to the the validation data.
+
+Here are some reasons XGBoost may be the most appropriate model for this dataset.
+
+1. Robust Performance: XGBoost is known for its superior predictive accuracy, often outperforming other machine learning algorithms for structured or tabular data, such as the Seoul Bike Sharing Demand dataset. This has led to its dominance in applied machine learning and Kaggle competitions [2].
+
+2. Ability to Handle Mixed Data Types: Your dataset contains a mix of categorical (like season, holiday, functional day) and numerical (like temperature, humidity, windspeed) features. XGBoost can effectively handle this mixture of feature types.
+
+3. Handles Complex Non-linear Relationships: The relationship between features such as weather, time, and holiday status, and the demand for bikes is likely non-linear and involves complex interactions. XGBoost, being a gradient boosting algorithm, is capable of modeling these non-linearities and interactions effectively.
+
+3. Overfitting Prevention: XGBoost includes built-in regularization parameters that help in preventing overfitting, making it a good choice for datasets with many features and complex relationships.
+
+4. Handling Missing Values: If there are missing values in the dataset, XGBoost can automatically handle them.
+
+5. Fast and Efficient: XGBoost is designed for speed and performance. It implements parallel processing, making it faster than many other ensemble classifiers. It also supports GPU training for further speed-up [1, 4].
+
+6. Interpretability: Despite being a complex model, XGBoost provides feature importance scores which can be helpful for understanding the impact of different features on the predictions.

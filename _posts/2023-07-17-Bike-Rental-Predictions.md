@@ -33,7 +33,7 @@ This data was originally taken from Kaggle, available [here](https://www.kaggle.
 ### Unsuccessful Methods
 * SQLite - This is great for using SQL and Python together. However, it does not allow you to format features as dates. It worked, but it would not have been a good example for this project.
 * MYSQL - I had trouble using the import wizard. I prefer the one on Azure Data Studio.
-* Hosting Locally on Azure Data Studio - I am able to host a server locally through Docker. However, I was unsuccessful when trying to connect it with myodbc. I have a newer Mac that uses an ARM processor, so this may have complicated things.
+* Hosting Locally on Azure Data Studio - I am able to host a server locally through Docker. However, I was unsuccessful when trying to connect it with pyodbc. I have a newer Mac that uses an ARM processor, so this may have complicated things.
 
 ### The Query
 

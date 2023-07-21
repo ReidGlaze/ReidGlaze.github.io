@@ -3,7 +3,7 @@ title: "Team Dopey - Autonomous Jousting Robot"
 date: 2023-07-21 00:00:00 -0700
 image: /assets/images/Dopey.png
 categories: [Grad School Projects]
-tags: [robotics,python,c++]     # TAG names should always be lowercase
+tags: [robotics,python,c++,raspberry pi,arduino,computer vision,opencv]     # TAG names should always be lowercase
 ---
 # Autonomous Robotic Design and Execution: Project Report for Mechatronics & Robotics I
 ## Team Dopey
@@ -51,16 +51,19 @@ The chassis served as the base for all the robot's components. The design took i
 The navigation system of our robot was designed to incrementally move towards a target balloon while "bouncing" off the yellow tape to remain within the game area. Additionally, it randomly navigated the course when no balloon was in view. The system was composed of two subroutines that handled boundary line avoidance and balloon tracking.
 
 1. **Line Following Subroutine:** This subroutine was responsible for managing the robot's movement to avoid crossing the course boundaries. It worked by continuously monitoring the two color sensors mounted on the front left and right sides of the robot.
+
 ![Alt Text](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzM0ZjA3cDk5ZWpwN3RmdWU3NjJybGxydnhpcHYwczAza2p5OTEyMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r5uWhXa9UBjiMBSZ3p/giphy.gif)
 
 2. **Balloon Following Routine:** This subroutine handled the detection of balloons and directed the robot towards the target balloons while moving away from friendly balloons when too close. When no balloon was visible, this subroutine commanded the robot to move randomly within the course boundaries.
 
+![Alt Text](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2pqYWp3aG1oaThwemd2ZHA1cGV1YXZ4Nmd6NDJqZDhlejR2czZhZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mYodNXlSpfvkiUjreq/giphy.gif)
 
 ## Jousting Mechanism <a name="Jousting-Mechanism"></a>
 The jousting mechanism was initially designed to extend and retract using a rack and pinion format, with a servo motor driving the movement. After running a practice course, we decided to keep the joust stationary and instead move the robot closer to a balloon to pop it.
 
 ## Performance in Competition <a name="Performance-in-Competition"></a>
 In the competition, our robot displayed varying degrees of success. Despite facing some challenges and struggles, our robot managed to score points by successfully popping the balloons of the opposing teams. However, we identified certain areas where improvements could be made, such as more strategic navigation, especially considering the extra space occupied by the attached balloon.
+
 ![Alt Text](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExejdmeW9vamh5dWlhMTl2aG1lY3RpbXJqMGFkMTNocmgweDAzczhncCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/W8dVsaCha11yaowFV2/giphy.gif)
 
 ## Improvements and Next Steps <a name="Improvements-and-Next-Steps"></a>

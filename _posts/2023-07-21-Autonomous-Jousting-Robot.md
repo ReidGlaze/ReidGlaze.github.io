@@ -51,6 +51,8 @@ The chassis served as the base for all the robot's components. The design took i
 The navigation system of our robot was designed to incrementally move towards a target balloon while "bouncing" off the yellow tape to remain within the game area. Additionally, it randomly navigated the course when no balloon was in view. The system was composed of two subroutines that handled boundary line avoidance and balloon tracking.
 
 1. **Line Following Subroutine:** This subroutine was responsible for managing the robot's movement to avoid crossing the course boundaries. It worked by continuously monitoring the two color sensors mounted on the front left and right sides of the robot.
+![Alt Text](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzM0ZjA3cDk5ZWpwN3RmdWU3NjJybGxydnhpcHYwczAza2p5OTEyMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r5uWhXa9UBjiMBSZ3p/giphy.gif)
+
 2. **Balloon Following Routine:** This subroutine handled the detection of balloons and directed the robot towards the target balloons while moving away from friendly balloons when too close. When no balloon was visible, this subroutine commanded the robot to move randomly within the course boundaries.
 
 ## Jousting Mechanism <a name="Jousting-Mechanism"></a>

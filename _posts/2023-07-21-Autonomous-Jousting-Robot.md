@@ -5,7 +5,7 @@ image: /assets/images/Dopey.png
 categories: [Grad School Projects]
 tags: [robotics,python,c++,raspberry pi,arduino,computer vision,opencv]     # TAG names should always be lowercase
 ---
-# Autonomous Robotic Design and Execution: Project Report for Mechatronics & Robotics I
+
 ## Team Dopey
 **Contributors:** Charles Callahan, Shane Cho, Reid Glaze, Mayank Pant
 

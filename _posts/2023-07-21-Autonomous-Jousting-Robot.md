@@ -64,7 +64,11 @@ The jousting mechanism was initially designed to extend and retract using a rack
 ## Performance in Competition <a name="Performance-in-Competition"></a>
 In the competition, our robot displayed varying degrees of success. Despite facing some challenges and struggles, our robot managed to score points by successfully popping the balloons of the opposing teams. However, we identified certain areas where improvements could be made, such as more strategic navigation, especially considering the extra space occupied by the attached balloon.
 
+![Alt Text](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWt0cmx0MzFnaWlkcWJqOHB4b2U5aWVmOW5hdWtjd3Jtcmk3aWRzNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sLhdCFNBkImhaCEYYT/giphy.gif)
+
 ![Alt Text](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExejdmeW9vamh5dWlhMTl2aG1lY3RpbXJqMGFkMTNocmgweDAzczhncCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/W8dVsaCha11yaowFV2/giphy.gif)
 
 ## Improvements and Next Steps <a name="Improvements-and-Next-Steps"></a>
 During the competition, we noted that one area of our robot's design that could be improved was the navigation strategy. The robot was efficient at staying within the boundaries of the course; however, it lacked a sense of direction. We suggest the addition of an extension to the line-following subroutine to consider the purple vinyl tape, enabling the robot to position itself better towards alleyways and thus improving its navigation strategy.
+
+[See the Python (Raspberry Pi) and C++ (Arduino) Code Here!](https://github.com/ReidGlaze/Mechatronics)

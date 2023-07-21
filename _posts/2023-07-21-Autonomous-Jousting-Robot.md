@@ -1,9 +1,9 @@
 ---
 title: "Team Dopey - Autonomous Jousting Robot"
 date: 2023-07-21 00:00:00 -0700
-image:
+image: /assets/images/bikecanva.png
 categories: [Grad School Projects]
-tags: [robotics,python]     # TAG names should always be lowercase
+tags: [robotics,python,c++]     # TAG names should always be lowercase
 ---
 # Autonomous Robotic Design and Execution: Project Report for Mechatronics & Robotics I
 ## Team Dopey

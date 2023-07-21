@@ -71,4 +71,6 @@ In the competition, our robot displayed varying degrees of success. Despite faci
 ## Improvements and Next Steps <a name="Improvements-and-Next-Steps"></a>
 During the competition, we noted that one area of our robot's design that could be improved was the navigation strategy. The robot was efficient at staying within the boundaries of the course; however, it lacked a sense of direction. We suggest the addition of an extension to the line-following subroutine to consider the purple vinyl tape, enabling the robot to position itself better towards alleyways and thus improving its navigation strategy.
 
+![Alt Text](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3M0NWU2aGNnd2QydXc3ZnZzbHFsczZyeXVycDViOG8zZWh2b2dqbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0GFhOCxqE8iw5yKhLf/giphy.gif)
+
 [See the Python (Raspberry Pi) and C++ (Arduino) Code Here!](https://github.com/ReidGlaze/Mechatronics)

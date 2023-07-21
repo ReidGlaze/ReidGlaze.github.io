@@ -55,11 +55,13 @@ The navigation system of our robot was designed to incrementally move towards a 
 
 2. **Balloon Following Routine:** This subroutine handled the detection of balloons and directed the robot towards the target balloons while moving away from friendly balloons when too close. When no balloon was visible, this subroutine commanded the robot to move randomly within the course boundaries.
 
+
 ## Jousting Mechanism <a name="Jousting-Mechanism"></a>
 The jousting mechanism was initially designed to extend and retract using a rack and pinion format, with a servo motor driving the movement. After running a practice course, we decided to keep the joust stationary and instead move the robot closer to a balloon to pop it.
 
 ## Performance in Competition <a name="Performance-in-Competition"></a>
 In the competition, our robot displayed varying degrees of success. Despite facing some challenges and struggles, our robot managed to score points by successfully popping the balloons of the opposing teams. However, we identified certain areas where improvements could be made, such as more strategic navigation, especially considering the extra space occupied by the attached balloon.
+![Alt Text](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExejdmeW9vamh5dWlhMTl2aG1lY3RpbXJqMGFkMTNocmgweDAzczhncCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/W8dVsaCha11yaowFV2/giphy.gif)
 
 ## Improvements and Next Steps <a name="Improvements-and-Next-Steps"></a>
 During the competition, we noted that one area of our robot's design that could be improved was the navigation strategy. The robot was efficient at staying within the boundaries of the course; however, it lacked a sense of direction. We suggest the addition of an extension to the line-following subroutine to consider the purple vinyl tape, enabling the robot to position itself better towards alleyways and thus improving its navigation strategy.

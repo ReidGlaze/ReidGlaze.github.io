@@ -20,5 +20,5 @@ As a key contributor to the Reconfigurable CubeSat Swarm project, I played a cru
     </embed>
 </object>
 
-# AIAA Publication
+## AIAA Publication
 [Read the AIAA Publication](https://arc.aiaa.org/doi/10.2514/6.2022-0845)

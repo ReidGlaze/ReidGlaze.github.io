@@ -26,6 +26,8 @@ Next, we explore scoring dynamics within teams with a stacked bar chart. The LA 
 
 On the other hand, teams like Denver face challenges, with some players scoring only an average of 1 point or less. A notable exception is Kawhi Leonard from the LA Clippers, who dominated with an impressive average of 34.5 points per game, outshining all other players in the playoffs.
 
+[![bubble plot](/assets/images/stackedbar.png)](https://public.tableau.com/views/2023NBAPlayoffsAnalysis/FullStory?:language=en-US&:display_count=n&:origin=viz_share_link)
+
 ## Slide 3: Beyond the Arc - 3-Point Prowess
 
 

@@ -10,14 +10,17 @@ tags: [tableau, data analytics]     # TAG names should always be lowercase
 
 The 2023 NBA playoffs provided an exciting display of talent, and Tableau's powerful data visualization capabilities enable us to delve into the numbers behind the star performances. In this tableau story, we'll take a closer look at player data to uncover interesting insights and standout performances from the tournament.
 
-# Datasets used
+## Data Sets Used
 Two datasets were used:
 1. The [first data set](https://www.basketball-reference.com/playoffs/NBA_2023_per_game.html) includes the average metrics for each player per game. This dataset was used for slides 1, 4, and 5.
 2. The [second data set](https://www.basketball-reference.com/playoffs/NBA_2023_totals.html) includes the total metrics for each player. This dataset was used for slides 2 and 3.
 
 These tables were joined on the player column using Tableau.
+## The Tableau Story
 
-## Slide 1: Charting the All-Around Players
+In a past endeavor, when I delved into an analytical study of educational data from Massachusetts, I utilized a dashboard created through Tableau. I incorporated a story format for this particular project and found it to be a beneficial learning experience. Check out my [Tableau story](https://public.tableau.com/app/profile/reid.glaze/viz/2023NBAPlayoffsAnalysis/FullStory) by clicking on the link or one of the images below.
+
+### Slide 1: Charting the All-Around Players
 
 
 Their initial point of focus is a bubble chart that depicts the average assists, rebounds, and points earned by every player. Points find their place on the x-axis, assists on the y-axis, and the magnitude of the bubbles denotes the quantity of rebounds. The different positions of the players are differentiated through color codes.
@@ -28,7 +31,7 @@ Included in the chart are regression lines for each position. Based on these reg
 
 [![bubble plot](/assets/images/bubbleplot.png)](https://public.tableau.com/views/2023NBAPlayoffsAnalysis/FullStory?:language=en-US&:display_count=n&:origin=viz_share_link)
 
-## Slide 2: Scoring Dynamics Across Teams
+### Slide 2: Scoring Dynamics Across Teams
 
 A stacked bar chart was devised to depict the sum total of points each team racked up in the playoffs. As would be expected, those teams that were knocked out earlier in the series exhibit a smaller total point tally. It's logical to find Miami and Denver leading the pack in terms of total points since they were the teams that made it all the way to the finals. Despite Denver's ultimate victory, Miami recorded a higher aggregate of points. Yet, within the individual player statistics, it was Nikola Jokic who towered above all others, with an impressive score of 600 points during the playoffs.
 
@@ -38,7 +41,7 @@ An additional intriguing trend was discerned. It seems that the contribution of 
 
 [![stacked bar](/assets/images/stackedbar.png)](https://public.tableau.com/views/2023NBAPlayoffsAnalysis/FullStory?:language=en-US&:display_count=n&:origin=viz_share_link)
 
-## Slide 3: Beyond the Arc - 3-Point Prowess
+### Slide 3: Beyond the Arc - 3-Point Prowess
 
 
 A heat map illustrating the 3-point percentage for each position within each team was generated. However, positions with fewer than 12 attempted 3-point shots were omitted from the heat map. This exclusion was necessary to ensure the reliability of the data, as a limited sample size could be influenced significantly by chance occurrences and might not accurately represent the true shooting abilities of those positions.
@@ -53,7 +56,7 @@ Several positions stood out:
 
 [![heat map](/assets/images/heatmap.png)](https://public.tableau.com/views/2023NBAPlayoffsAnalysis/FullStory?:language=en-US&:display_count=n&:origin=viz_share_link)
 
-## Slide 4: Assists by Position
+### Slide 4: Assists by Position
 
 
 Assists play a pivotal role in team strategy, and this treemap breaks down assists by position. As expected, point guards dominate this category, showcasing their essential role in facilitating teamwork. One standout player, Trae Young, secures the highest average assists, reflecting his crucial role in guiding his team's offense.
@@ -62,7 +65,7 @@ An interesting observation is once again Nikola Jokic, the center who surprising
 
 [![tree map](/assets/images/treemap.png)](https://public.tableau.com/views/2023NBAPlayoffsAnalysis/FullStory?:language=en-US&:display_count=n&:origin=viz_share_link)
 
-## Slide 5: Unraveling the NBA Finals Stars
+### Slide 5: Unraveling the NBA Finals Stars
 
 
 In the NBA Finals, I focus on the top 5 players from the two competing teams. Nikola Jokic shines as the 7th player to achieve two triple-doubles in an NBA Finals, solidifying his reputation as an all-around player. His average stats reflect his awe-inspiring performances throughout the tournament.

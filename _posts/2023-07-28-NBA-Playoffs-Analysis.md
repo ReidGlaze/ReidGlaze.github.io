@@ -68,10 +68,14 @@ An interesting observation is once again Nikola Jokic, the center who surprising
 ### Slide 5: Unraveling the NBA Finals Stars
 
 
-In the NBA Finals, I focus on the top 5 players from the two competing teams. Nikola Jokic shines as the 7th player to achieve two triple-doubles in an NBA Finals, solidifying his reputation as an all-around player. His average stats reflect his awe-inspiring performances throughout the tournament.
+In the NBA Finals, the spotlight is cast upon the top 5 players from the two competing teams. Notably, Nikola Jokic emerges as a powerhouse, becoming only the 7th player to accomplish two triple-doubles in an NBA Finals, thereby cementing his status as an extraordinary all-around player. Scoring well over 10 points in each game, and averaging 13.5 rebounds and 9.5 assists per game, Jokic was remarkably close to sustaining a triple-double average throughout the entire playoffs. These compelling stats not only embody his spectacular performances during the tournament but also showcase his consistent, high-level play.
 
-In this Tableau-driven exploration, we've uncovered the exceptional talents and standout moments of NBA players during the 2023 playoffs. The numbers tell an intriguing story, revealing the players' prowess and the moments that captivated basketball fans worldwide.
+Alongside Jokic, Jamal Murray has also proven himself to be a robust asset to the Denver Nuggets, showcasing his basketball acumen and significantly contributing to the team's success. Meanwhile, on the Miami Heat side, Jimmy Butler's impressive stats stood out, demonstrating his critical role and influence on the team.
+
+In this exploration, powered by Tableau, the exceptional talents and standout moments of NBA players during the 2023 playoffs are brought into focus. The figures weave an intriguing narrative, laying bare the players' prowess and the electrifying moments that captured the attention of basketball fans across the globe.
 
 [![tree map](/assets/images/topplayers.png)](https://public.tableau.com/views/2023NBAPlayoffsAnalysis/FullStory?:language=en-US&:display_count=n&:origin=viz_share_link)
 
-*Join us in this exciting journey of data-driven discovery, where Tableau empowers us to appreciate the intricacies of the game and celebrate the stars who left a lasting impact on basketball's grandest stage.*
+
+
+

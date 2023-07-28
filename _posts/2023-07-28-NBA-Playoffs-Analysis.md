@@ -26,7 +26,7 @@ Next, we explore scoring dynamics within teams with a stacked bar chart. The LA 
 
 On the other hand, teams like Denver face challenges, with some players scoring only an average of 1 point or less. A notable exception is Kawhi Leonard from the LA Clippers, who dominated with an impressive average of 34.5 points per game, outshining all other players in the playoffs.
 
-[![bubble plot](/assets/images/stackedbar.png)](https://public.tableau.com/views/2023NBAPlayoffsAnalysis/FullStory?:language=en-US&:display_count=n&:origin=viz_share_link)
+[![stacked bar](/assets/images/stackedbar.png)](https://public.tableau.com/views/2023NBAPlayoffsAnalysis/FullStory?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 ## Slide 3: Beyond the Arc - 3-Point Prowess
 
@@ -35,12 +35,16 @@ In this heat map, we explore the 3-point shooting abilities of each player, filt
 
 Another player worth noting is the small forward from the Milwaukee Bucks, boasting a remarkable 49 percent success rate on an average of 20.2 3-point attempts per game.
 
+[![heat map](/assets/images/heatmap.png)](https://public.tableau.com/views/2023NBAPlayoffsAnalysis/FullStory?:language=en-US&:display_count=n&:origin=viz_share_link)
+
 ## Slide 4: Assists by Position
 
 
 Assists play a pivotal role in team strategy, and this treemap breaks down assists by position. As expected, point guards dominate this category, showcasing their essential role in facilitating teamwork. One standout player, Trae Young, secures the highest average assists, reflecting his crucial role in guiding his team's offense.
 
 An interesting observation is once again Nikola Jokic, the center who surprisingly secured the second-highest number of assists overall, an exceptional feat for a position not typically known for playmaking abilities.
+
+[![tree map](/assets/images/treemap.png)](https://public.tableau.com/views/2023NBAPlayoffsAnalysis/FullStory?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 ## Slide 5: Unraveling the NBA Finals Stars
 

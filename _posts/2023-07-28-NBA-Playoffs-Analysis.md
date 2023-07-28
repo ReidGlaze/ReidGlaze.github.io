@@ -19,8 +19,8 @@ The 2023 NBA playoffs delivered an exhilarating showcase of talent, leaving bask
 
 ## Data Sets Used
 Two datasets were used:
-1. The [first data set](https://www.basketball-reference.com/playoffs/NBA_2023_per_game.html) includes the average metrics for each player per game. This dataset was used for slides 1, 4, and 5.
-2. The [second data set](https://www.basketball-reference.com/playoffs/NBA_2023_totals.html) includes the total metrics for each player. This dataset was used for slides 2 and 3.
+* The [first data set](https://www.basketball-reference.com/playoffs/NBA_2023_per_game.html) includes the average metrics for each player per game. This dataset was used for slides 1, 4, and 5.
+* The [second data set](https://www.basketball-reference.com/playoffs/NBA_2023_totals.html) includes the total metrics for each player. This dataset was used for slides 2 and 3.
 
 These tables were joined on the player column using Tableau.
 ## The Tableau Story

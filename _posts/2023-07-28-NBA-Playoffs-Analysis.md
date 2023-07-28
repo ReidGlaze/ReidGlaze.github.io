@@ -13,9 +13,11 @@ The 2023 NBA playoffs provided an exciting display of talent, and Tableau's powe
 ## Slide 1: Charting the All-Around Players
 
 
-Our first stop is a bubble chart illustrating the average assists, rebounds, and points scored by each player. Points are on the x-axis, assists on the y-axis, and the size of the bubbles represents the number of rebounds. Player positions are indicated by colors.
+Their initial point of focus is a bubble chart that depicts the average assists, rebounds, and points earned by every player. Points find their place on the x-axis, assists on the y-axis, and the magnitude of the bubbles denotes the quantity of rebounds. The different positions of the players are differentiated through color codes.
 
-One player stands out as an outlier - Nikola Jokic. As a center, he impressively recorded far more assists than the average center, showcasing his playmaking ability. Additionally, his rebounding prowess further cements him as a formidable force on the court.
+There's one player who breaks the mold - Nikola Jokic. Despite his role as a center, Jokic's assist record is remarkably higher than the average player in his position, effectively spotlighting his capacity as a playmaker. His aptitude for rebounds additionally bolsters his standing as a significant player on the field.
+
+Included in the chart are regression lines for each position. Based on these regression lines, it was inferred that point guards generally account for the most assists in relation to points. Meanwhile, centers take the lead in gathering the most rebounds. In an unexpected revelation, shooting guards, small forwards, power forwards, and centers appear to have similar ratios of assists to points.
 
 [![bubble plot](/assets/images/bubbleplot.png)](https://public.tableau.com/views/2023NBAPlayoffsAnalysis/FullStory?:language=en-US&:display_count=n&:origin=viz_share_link)
 

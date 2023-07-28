@@ -10,6 +10,13 @@ tags: [tableau, data analytics]     # TAG names should always be lowercase
 
 The 2023 NBA playoffs provided an exciting display of talent, and Tableau's powerful data visualization capabilities enable us to delve into the numbers behind the star performances. In this tableau story, we'll take a closer look at player data to uncover interesting insights and standout performances from the tournament.
 
+# Datasets used
+Two datasets were used:
+1. The [first data set](https://www.basketball-reference.com/playoffs/NBA_2023_per_game.html) includes the average metrics for each player per game. This dataset was used for slides 1, 4, and 5.
+2. The [second data set](https://www.basketball-reference.com/playoffs/NBA_2023_totals.html) includes the total metrics for each player. This dataset was used for slides 2 and 3.
+
+These tables were joined on the player column using Tableau.
+
 ## Slide 1: Charting the All-Around Players
 
 

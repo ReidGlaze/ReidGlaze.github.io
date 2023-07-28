@@ -23,10 +23,11 @@ Included in the chart are regression lines for each position. Based on these reg
 
 ## Slide 2: Scoring Dynamics Across Teams
 
+A stacked bar chart was devised to depict the sum total of points each team racked up in the playoffs. As would be expected, those teams that were knocked out earlier in the series exhibit a smaller total point tally. It's logical to find Miami and Denver leading the pack in terms of total points since they were the teams that made it all the way to the finals. Despite Denver's ultimate victory, Miami recorded a higher aggregate of points. Yet, within the individual player statistics, it was Nikola Jokic who towered above all others, with an impressive score of 600 points during the playoffs.
 
-Next, we explore scoring dynamics within teams with a stacked bar chart. The LA Clippers emerge as a powerhouse, leading in average points. Even lesser-known players from their team contributed significantly, highlighting their collective strength.
 
-On the other hand, teams like Denver face challenges, with some players scoring only an average of 1 point or less. A notable exception is Kawhi Leonard from the LA Clippers, who dominated with an impressive average of 34.5 points per game, outshining all other players in the playoffs.
+An additional intriguing trend was discerned. It seems that the contribution of the top three players from each team is approximately equal to the total points scored by the remaining members of their respective teams. This pattern was noticeable across all sixteen teams. Interestingly, in some of these teams, the top trio of players managed to outscore the rest of their teammates.
+
 
 [![stacked bar](/assets/images/stackedbar.png)](https://public.tableau.com/views/2023NBAPlayoffsAnalysis/FullStory?:language=en-US&:display_count=n&:origin=viz_share_link)
 

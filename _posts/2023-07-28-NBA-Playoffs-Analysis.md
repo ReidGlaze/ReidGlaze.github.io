@@ -17,6 +17,8 @@ Our first stop is a bubble chart illustrating the average assists, rebounds, and
 
 One player stands out as an outlier - Nikola Jokic. As a center, he impressively recorded far more assists than the average center, showcasing his playmaking ability. Additionally, his rebounding prowess further cements him as a formidable force on the court.
 
+![bubble plot](/assets/images/bubbleplot.png)
+
 ## Slide 2: Scoring Dynamics Across Teams
 
 

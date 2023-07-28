@@ -76,6 +76,16 @@ In this exploration, powered by Tableau, the exceptional talents and standout mo
 
 [![tree map](/assets/images/topplayers.png)](https://public.tableau.com/views/2023NBAPlayoffsAnalysis/FullStory?:language=en-US&:display_count=n&:origin=viz_share_link)
 
+## Key Observations
+1. The use of Tableau revealed interesting patterns such as the role of point guards in assisting and centers in rebounding, with surprising exceptions like Nikola Jokic.
+
+2. Teams that stayed longer in the playoffs naturally racked up more points, but individual player contributions varied significantly, with top trios often equalling or outperforming the rest of their teams.
+
+3. Precision in 3-point shooting varied across teams and positions, with standout performances from certain positions within the Milwaukee Bucks, Denver Nuggets, and Boston Celtics teams.
+
+4. The treemap visualization emphasized the pivotal role of point guards in assists, with Trae Young securing the highest average and Nikola Jokic, as a center, performing unusually well in this category.
+
+5. The NBA Finals highlighted exceptional players like Nikola Jokic, who became the 7th player to achieve two triple-doubles in the NBA Finals, and other top players who showcased their exceptional talents during the 2023 playoffs.
 
 
 

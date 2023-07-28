@@ -8,7 +8,7 @@ tags: [tableau, data analytics]     # TAG names should always be lowercase
 
 
 
-The 2023 NBA playoffs delivered an exhilarating showcase of talent, leaving basketball enthusiasts captivated by the star performances on the court. To delve deeper into the numbers behind these extraordinary feats, data visualization technology from Tableau was harnessed, enabling an insightful exploration of player data and uncovering intriguing insights from the tournament. In this article, we will take you on a journey through a Tableau story, highlighting key observations and standout moments that shed light on the exceptional abilities of NBA players during the playoffs.
+The 2023 NBA playoffs showcased an array of impressive performances that captivated basketball enthusiasts worldwide. To gain deeper insights into the numbers behind these standout moments, Tableau's data visualization capabilities were utilized to analyze player data from the tournament. In this article, we will present the key observations and interesting findings from the Tableau story, shedding light on the exceptional abilities of NBA players during the playoffs.
 ## Project Goals
 * To utilize Tableau to visualize and analyze player performance data from the 2023 NBA playoffs.
 * To uncover unique patterns and standout performances in the tournament through the use of different types of visualizations such as bubble charts, bar graphs, heat maps, and tree maps.
@@ -30,11 +30,11 @@ In a past endeavor, when I delved into an analytical study of educational data f
 ### Slide 1: Charting the All-Around Players
 
 
-Their initial point of focus is a bubble chart that depicts the average assists, rebounds, and points earned by every player. Points find their place on the x-axis, assists on the y-axis, and the magnitude of the bubbles denotes the quantity of rebounds. The different positions of the players are differentiated through color codes.
+Their initial point of focus is a bubble chart that depicts the average assists, rebounds, and points earned by every player. Points find their place on the x-axis, assists on the y-axis, and the magnitude of the bubbles denotes the quantity of rebounds. The different positions of the players are indicated through the use of color codes.
 
-There's one player who breaks the mold - Nikola Jokic. Despite his role as a center, Jokic's assist record is remarkably higher than the average player in his position, effectively spotlighting his capacity as a playmaker. His aptitude for rebounds additionally bolsters his standing as a significant player on the field.
+There is one player who breaks the mold - Nikola Jokic. Despite his role as a center, Jokic's assist record is remarkably higher than the average player in his position, effectively spotlighting his capacity as a playmaker. His aptitude for rebounds additionally bolsters his standing as a significant player on the field.
 
-Included in the chart are regression lines for each position. Based on these regression lines, it was inferred that point guards generally account for the most assists in relation to points. Meanwhile, centers take the lead in gathering the most rebounds. In an unexpected revelation, shooting guards, small forwards, power forwards, and centers appear to have similar point / assist ratios to eachother.
+Included in the chart are regression lines for each position. Based on these regression lines, it was inferred that point guards generally account for the most assists in relation to points. Meanwhile, centers take the lead in gathering the most rebounds. In an unexpected revelation, shooting guards, small forwards, power forwards, and centers appear to have similar point / assist ratios to each other.
 
 [![bubble plot](/assets/images/bubbleplot.png)](https://public.tableau.com/views/2023NBAPlayoffsAnalysis/FullStory?:language=en-US&:display_count=n&:origin=viz_share_link)
 

@@ -8,7 +8,7 @@ tags: [tableau, data analytics]     # TAG names should always be lowercase
 
 
 
-The 2023 NBA playoffs provided an exciting display of talent, and Tableau's powerful data visualization capabilities enable us to delve into the numbers behind the star performances. In this tableau story, we'll take a closer look at player data to uncover interesting insights and standout performances from the tournament.
+The 2023 NBA playoffs delivered an exhilarating showcase of talent, leaving basketball enthusiasts captivated by the star performances on the court. To delve deeper into the numbers behind these extraordinary feats, data visualization technology from Tableau was harnessed, enabling an insightful exploration of player data and uncovering intriguing insights from the tournament. In this article, we will take you on a journey through a Tableau story, highlighting key observations and standout moments that shed light on the exceptional abilities of NBA players during the playoffs.
 
 ## Data Sets Used
 Two datasets were used:
@@ -88,4 +88,8 @@ In this exploration, powered by Tableau, the exceptional talents and standout mo
 5. The NBA Finals highlighted exceptional players like Nikola Jokic, who became the 7th player to achieve two triple-doubles in the NBA Finals, and other top players who showcased their exceptional talents during the 2023 playoffs.
 
 
+## Future Applications
 
+The application of Tableau's powerful data visualization capabilities in analyzing NBA player data opens the door to numerous future possibilities. Beyond the playoffs, teams and analysts can use similar techniques to gain a comprehensive understanding of player performance throughout the regular season. This data-driven approach can aid in strategic decision-making, player scouting, and game planning, ultimately enhancing a team's competitive edge.
+
+Moreover, the insights gleaned from Tableau's visualizations can also be extended to various aspects of basketball analytics, such as studying team dynamics, performance trends over multiple seasons, and even assessing the impact of coaching strategies on player development. As technology continues to evolve, data visualization tools like Tableau hold immense promise in revolutionizing sports analytics and providing deeper, data-backed insights into the world of professional basketball.

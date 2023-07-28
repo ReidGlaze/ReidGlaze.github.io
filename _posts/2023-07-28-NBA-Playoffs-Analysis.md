@@ -9,6 +9,13 @@ tags: [tableau, data analytics]     # TAG names should always be lowercase
 
 
 The 2023 NBA playoffs delivered an exhilarating showcase of talent, leaving basketball enthusiasts captivated by the star performances on the court. To delve deeper into the numbers behind these extraordinary feats, data visualization technology from Tableau was harnessed, enabling an insightful exploration of player data and uncovering intriguing insights from the tournament. In this article, we will take you on a journey through a Tableau story, highlighting key observations and standout moments that shed light on the exceptional abilities of NBA players during the playoffs.
+## Project Goals
+* To utilize Tableau to visualize and analyze player performance data from the 2023 NBA playoffs.
+* To uncover unique patterns and standout performances in the tournament through the use of different types of visualizations such as bubble charts, bar graphs, heat maps, and tree maps.
+* To analyze team and individual scoring dynamics, including the distribution of total points among players and the contribution of the top players.
+* To evaluate 3-point shooting accuracy across different teams and player positions and identify standout performances.
+* To highlight the role of different player positions in game dynamics, such as assists, with a particular focus on unusual cases like Nikola Jokic.
+* To draw insights from the data that can be useful for basketball enthusiasts, players, coaches, or sports analysts in understanding the intricacies of the game and the impact of individual players.
 
 ## Data Sets Used
 Two datasets were used:

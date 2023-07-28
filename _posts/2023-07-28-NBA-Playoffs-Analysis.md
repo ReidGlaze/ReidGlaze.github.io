@@ -17,7 +17,7 @@ Their initial point of focus is a bubble chart that depicts the average assists,
 
 There's one player who breaks the mold - Nikola Jokic. Despite his role as a center, Jokic's assist record is remarkably higher than the average player in his position, effectively spotlighting his capacity as a playmaker. His aptitude for rebounds additionally bolsters his standing as a significant player on the field.
 
-Included in the chart are regression lines for each position. Based on these regression lines, it was inferred that point guards generally account for the most assists in relation to points. Meanwhile, centers take the lead in gathering the most rebounds. In an unexpected revelation, shooting guards, small forwards, power forwards, and centers appear to have similar ratios of assists to points.
+Included in the chart are regression lines for each position. Based on these regression lines, it was inferred that point guards generally account for the most assists in relation to points. Meanwhile, centers take the lead in gathering the most rebounds. In an unexpected revelation, shooting guards, small forwards, power forwards, and centers appear to have similar point / assist ratios to eachother.
 
 [![bubble plot](/assets/images/bubbleplot.png)](https://public.tableau.com/views/2023NBAPlayoffsAnalysis/FullStory?:language=en-US&:display_count=n&:origin=viz_share_link)
 
@@ -58,7 +58,7 @@ An interesting observation is once again Nikola Jokic, the center who surprising
 ## Slide 5: Unraveling the NBA Finals Stars
 
 
-In the NBA Finals, we focus on the top 5 players from the two competing teams. Nikola Jokic shines as the 7th player to achieve two triple-doubles in an NBA Finals, solidifying his reputation as an all-around player. His average stats reflect his awe-inspiring performances throughout the tournament.
+In the NBA Finals, I focus on the top 5 players from the two competing teams. Nikola Jokic shines as the 7th player to achieve two triple-doubles in an NBA Finals, solidifying his reputation as an all-around player. His average stats reflect his awe-inspiring performances throughout the tournament.
 
 In this Tableau-driven exploration, we've uncovered the exceptional talents and standout moments of NBA players during the 2023 playoffs. The numbers tell an intriguing story, revealing the players' prowess and the moments that captivated basketball fans worldwide.
 

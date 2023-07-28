@@ -34,9 +34,15 @@ An additional intriguing trend was discerned. It seems that the contribution of 
 ## Slide 3: Beyond the Arc - 3-Point Prowess
 
 
-In this heat map, we explore the 3-point shooting abilities of each player, filtering out those with extremely low attempts for accuracy. The small forward position of the LA Clippers, led by Kawhi Leonard, stands out with an impressive 60 percent success rate and an average of 5 attempts per game.
+A heat map illustrating the 3-point percentage for each position within each team was generated. However, positions with fewer than 12 attempted 3-point shots were omitted from the heat map. This exclusion was necessary to ensure the reliability of the data, as a limited sample size could be influenced significantly by chance occurrences and might not accurately represent the true shooting abilities of those positions.
 
-Another player worth noting is the small forward from the Milwaukee Bucks, boasting a remarkable 49 percent success rate on an average of 20.2 3-point attempts per game.
+Several positions stood out:
+* The small forwards for the Milwaukee Bucks made  46.99% of 83 attempted 3 pointers.
+* The shooting gaurds for the Milwaukee Bucks made 48.28% of 29 attempted 3 pointers.
+* The centers for the Denver Nuggets made 46.05% of 76 attempted 3 pointers.
+* The shooting gaurds for the Boston Celtics made 45.45% of 110 attempted 3 pointers.
+* The power forwards for the Boston Celtics made 45% of 40 attempted 3 pointers.
+  
 
 [![heat map](/assets/images/heatmap.png)](https://public.tableau.com/views/2023NBAPlayoffsAnalysis/FullStory?:language=en-US&:display_count=n&:origin=viz_share_link)
 

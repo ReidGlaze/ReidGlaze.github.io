@@ -53,4 +53,6 @@ In the NBA Finals, we focus on the top 5 players from the two competing teams. N
 
 In this Tableau-driven exploration, we've uncovered the exceptional talents and standout moments of NBA players during the 2023 playoffs. The numbers tell an intriguing story, revealing the players' prowess and the moments that captivated basketball fans worldwide.
 
+[![tree map](/assets/images/topplayers.png)](https://public.tableau.com/views/2023NBAPlayoffsAnalysis/FullStory?:language=en-US&:display_count=n&:origin=viz_share_link)
+
 *Join us in this exciting journey of data-driven discovery, where Tableau empowers us to appreciate the intricacies of the game and celebrate the stars who left a lasting impact on basketball's grandest stage.*

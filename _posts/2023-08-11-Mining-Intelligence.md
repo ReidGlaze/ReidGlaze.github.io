@@ -45,6 +45,14 @@ The following bar chart depicts the daily average of unique values for each feat
 ### Data Preparation
 Data was split into features (`X`) and targets (`y`), where the targets are `% Iron Concentrate` and `% Silica Concentrate`. An 80-20 split was used to separate the data into training and test sets.
 
+For our analysis, the dataset was divided into predictor variables (X) and response variables (y), where the response variables represent the % Iron Concentrate and % Silica Concentrate. We adopted an 80-20 split to segregate the dataset into training and test subsets.
+
+In the process of preparing the data, it became necessary to critically evaluate the relevance of each feature. Drawing parallels from a prior bike rental demand prediction model I developed, factors like the day of the week and time of day played a significant role in forecasting demand. However, in the current context, such temporal variables seemed incongruous. To draw an analogy, the time taken for water to boil would ostensibly be the same on a Monday as it would on a Tuesday. If there were variations, they would likely be attributed to parameters such as the initial water temperature or the heat intensity of the stove, rather than the day itself.
+
+Given this understanding, all features related to time and dates were prudently eliminated from our dataset. While this action might have led to a slight reduction in the R2 score, it ensures that our model is better tailored for predictions on future data sets. From a machine learning perspective, this step was crucial to prevent overfitting, ensuring that our model generalizes well to new, unseen data.
+
+
+
 ### Model Selection and Training
 A `RandomForestRegressor` was chosen to predict the two targets. The model was trained on the training data to capture patterns in the input features that influence the concentrations.
 

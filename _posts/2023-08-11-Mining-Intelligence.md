@@ -51,6 +51,7 @@ In the process of preparing the data, it became necessary to critically evaluate
 
 Given this understanding, all features related to time and dates were prudently eliminated from our dataset. While this action might have led to a slight reduction in the R2 score, it ensures that our model is better tailored for predictions on future data sets. From a machine learning perspective, this step was crucial to prevent overfitting, ensuring that our model generalizes well to new, unseen data.
 
+![mining_freq](/assets/images/mining_heatmap.png)
 
 
 ### Model Selection and Training

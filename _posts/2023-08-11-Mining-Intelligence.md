@@ -6,13 +6,7 @@ categories: [DAA Bootcamp]
 tags: [python, data analytics, sql, data science]     # TAG names should always be lowercase
 ---
 
-This project is currently being edited.
-
-
-## Table of Contents
-1. [Introduction](#Introduction)
-
-
+#This page is currently under construction. Please check out my other projects or come back again later!
 ---
 
 ## Introduction

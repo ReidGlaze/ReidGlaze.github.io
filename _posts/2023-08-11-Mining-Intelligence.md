@@ -9,7 +9,16 @@ tags: [python, data analytics, sql, data science]     # TAG names should always 
 This project is currently being edited.
 
 
-
+## Table of Contents
+1. [Introduction](#Introduction)
+2. [Time-Based Data Analysis](#Time-Based-Data-Analysis)
+    - [Data Loading and Preprocessing](#Data-Loading-and-Preprocessing)
+    - [Visualizations](#Visualizations)
+3. [Predictive Modeling](#Predictive-Modeling)
+    - [Data Preparation](#Data-Preparation)
+    - [Model Selection and Training](#Model-Selection-and-Training)
+    - [Model Evaluation](#Model-Evaluation)
+4. [Conclusion](#Conclusion)
 ---
 
 ## Introduction
@@ -26,7 +35,7 @@ The dataset was read from a CSV file, which contains various parameters of the m
 ### Visualizations
 Multiple visualizations were generated to understand the patterns in `% Silica` and `% Iron` concentrates based on different time granularities such as hour of the day and day of the week. The visuals provide insights into how the concentrations change over time.
 
-*(Note: While the Markdown format doesn't support direct embedding of plots, you can link to the image files for reference)*
+
 ---
 
 ## Predictive Modeling

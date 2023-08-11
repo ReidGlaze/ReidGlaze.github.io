@@ -42,7 +42,7 @@ The following bar chart depicts the daily average of unique values for each feat
 
 ## Predictive Modeling
 
-### Data Preparation
+### Data Preparation - Contextual Variables
 Data was split into features (`X`) and targets (`y`), where the targets are `% Iron Concentrate` and `% Silica Concentrate`. An 80-20 split was used to separate the data into training and test sets.
 
 For our analysis, the dataset was divided into predictor variables (X) and response variables (y), where the response variables represent the % Iron Concentrate and % Silica Concentrate. We adopted an 80-20 split to segregate the dataset into training and test subsets.
@@ -51,7 +51,12 @@ In the process of preparing the data, it became necessary to critically evaluate
 
 Given this understanding, all features related to time and dates were prudently eliminated from our dataset. While this action might have led to a slight reduction in the R2 score, it ensures that our model is better tailored for predictions on future data sets. From a machine learning perspective, this step was crucial to prevent overfitting, ensuring that our model generalizes well to new, unseen data.
 
+### Data Preparation - Garbage in Garbage out
+
+
 ![mining_freq](/assets/images/mining_heatmap.png)
+
+
 
 
 ### Model Selection and Training

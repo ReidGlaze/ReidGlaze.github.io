@@ -26,10 +26,14 @@ Nevertheless, this limitation was circumvented by leveraging Python's capabiliti
 
 
 ### Visualizations
-Multiple visualizations were generated to understand the patterns in `% Silica` and `% Iron` concentrates based on different time granularities such as hour of the day and day of the week. The visuals provide insights into how the concentrations change over time.
-
+Multiple visualizations were generated to understand the patterns in `% Silica` and `% Iron` concentrates based on different time granularities such as hour of the day and day of the week. The visuals provide insights into how the concentrations change over time. The visual below shows the average % Silica Concentrate per hour and the average % Iron Concentrate per hour for each time period. As you can see, the two concentrates tend to be negatively correlated.
 
 ![mining_hourly](/assets/images/mining_hourly.png)
+
+The chart provided illustrates the average percentage of Silica Concentrate for every day of the week. Once more, the graph underscores a negative correlation between the two Concentrates. Yet, Monday deviates from this observed trend. This suggests that while there's a noticeable negative correlation, other factors certainly play a role and should be taken into account.
+
+![mining_weekly](/assets/images/mining_weekly.png)
+
 ---
 
 ## Predictive Modeling

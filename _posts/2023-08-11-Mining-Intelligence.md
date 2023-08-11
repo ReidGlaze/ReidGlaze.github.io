@@ -18,7 +18,12 @@ This report focuses on analyzing a dataset related to the mining process. The pr
 ## Time-Based Data Analysis
 
 ### Data Loading and Preprocessing
-The dataset was read from a CSV file, which contains various parameters of the mining process. Special emphasis was placed on the 'date' column, extracting features such as the hour of the day, day of the week, month, and a weekend indicator.
+The dataset, containing various parameters related to the mining process, was sourced from a CSV file. A key focus during preprocessing was the 'date' column, from which we derived multiple features such as the hour of the day, day of the week, month, and an indicator signifying weekends.
+
+For this project, both SQL and Python were employed to handle and process the data. In a preceding endeavor—a bike rental prediction model—I utilized Azure to set up a database and conducted queries using T-SQL within Azure Data Studio. However, since my Azure subscription has since expired, I transitioned to SQLite for the current project. A significant advantage of SQLite is its ability to integrate seamlessly with Python, eliminating the need for external database hosting. On the flip side, SQLite lacks native Datetime functions.
+
+Nevertheless, this limitation was circumvented by leveraging Python's capabilities to perform Datetime operations. The initial step in preprocessing entailed transforming the Datetime information into a set of features that could be more efficiently interpreted by SQLite. Subsequently, SQLite was employed for conducting time-centric analyses.
+
 
 ### Visualizations
 Multiple visualizations were generated to understand the patterns in `% Silica` and `% Iron` concentrates based on different time granularities such as hour of the day and day of the week. The visuals provide insights into how the concentrations change over time.

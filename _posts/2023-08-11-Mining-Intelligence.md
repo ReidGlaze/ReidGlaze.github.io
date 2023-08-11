@@ -34,6 +34,10 @@ The chart provided illustrates the average percentage of Silica Concentrate for 
 
 ![mining_weekly](/assets/images/mining_weekly.png)
 
+The following bar chart depicts the daily average of unique values for each feature. Notably, the iron and silicon feeds typically present fewer than 3 unique values each day. In contrast, some metrics, like starch flow, have an average of more than 4000 unique daily values. Given that the dataset records a sample every 20 seconds, this equates to 4320 samples daily. This information provides insight into the rate at which these values fluctuate throughout the day.
+
+![mining_freq](/assets/images/mining_freq.png)
+
 ---
 
 ## Predictive Modeling

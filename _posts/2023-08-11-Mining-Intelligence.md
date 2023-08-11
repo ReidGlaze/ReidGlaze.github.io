@@ -9,18 +9,6 @@ tags: [python, data analytics, sql, data science]     # TAG names should always 
 This project is currently being edited.
 
 
-# Mining Process Analysis Report
-
-## Table of Contents
-1. [Introduction](#Introduction)
-2. [Time-Based Data Analysis](#Time-Based-Data-Analysis)
-    - [Data Loading and Preprocessing](#Data-Loading-and-Preprocessing)
-    - [Visualizations](#Visualizations)
-3. [Predictive Modeling](#Predictive-Modeling)
-    - [Data Preparation](#Data-Preparation)
-    - [Model Selection and Training](#Model-Selection-and-Training)
-    - [Model Evaluation](#Model-Evaluation)
-4. [Conclusion](#Conclusion)
 
 ---
 
@@ -40,22 +28,3 @@ Multiple visualizations were generated to understand the patterns in `% Silica` 
 
 *(Note: While the Markdown format doesn't support direct embedding of plots, you can link to the image files for reference)*
 
----
-
-## Predictive Modeling
-
-### Data Preparation
-Data was split into features (`X`) and targets (`y`), where the targets are `% Iron Concentrate` and `% Silica Concentrate`. An 80-20 split was used to separate the data into training and test sets.
-
-### Model Selection and Training
-A `RandomForestRegressor` was chosen to predict the two targets. The model was trained on the training data to capture patterns in the input features that influence the concentrations.
-
-### Model Evaluation
-The model's predictions on the test set were evaluated using the Mean Squared Error (MSE) and \( R^2 \) score for both targets. These metrics provide a quantitative measure of the model's accuracy and fit.
-
-*(Note: Precise evaluation metrics are not provided in this summary, but they can be referenced from the notebook's execution results)*
-
----
-
-## Conclusion
-The analysis provides valuable insights into how `% Iron` and `% Silica` concentrations vary over time. The machine learning model offers a mechanism to predict these concentrations based on input features, which can be beneficial for process optimization in the mining industry.

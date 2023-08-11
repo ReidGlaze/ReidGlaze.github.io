@@ -53,10 +53,16 @@ Given this understanding, all features related to time and dates were prudently 
 
 ### Data Preparation - Garbage in Garbage out
 
+A heatmap was generated to visualize the correlation between variables. This visual representation aids in understanding the degree of association between different features.
+
 
 ![mining_freq](/assets/images/mining_heatmap.png)
 
+There are two primary scenarios warranting the consideration of variable deletion:
 
+High Inter-Variable Correlation: A classic instance of this was observed between "Flotation Column 01 Air Flow" and "Flotation Column 03 Air Flow", which exhibited a correlation of 0.95. While some literature suggests removing variables with correlations exceeding 0.95, the research team decided to retain both columns. The correlation did not decisively surpass this threshold. Nonetheless, it might be valuable in future analyses to test the model's performance by excluding one of these highly correlated variables.
+
+Low Correlation with the Output: Variables that have minimal correlation with the target output might be considered for removal. However, in this study, even when some variables demonstrated very low correlation values (below 0.01) with one of the outputs, they did not consistently show low correlation across both target variables. Given the objective to craft a singular model addressing both outputs, the decision was made to retain all such variables. In the future, it may make sense to build seperate models for each output to achieve more accurate results.
 
 
 ### Model Selection and Training
@@ -65,7 +71,6 @@ A `RandomForestRegressor` was chosen to predict the two targets. The model was t
 ### Model Evaluation
 The model's predictions on the test set were evaluated using the Mean Squared Error (MSE) and \( R^2 \) score for both targets. These metrics provide a quantitative measure of the model's accuracy and fit.
 
-*(Note: Precise evaluation metrics are not provided in this summary, but they can be referenced from the notebook's execution results)*
 
 ---
 

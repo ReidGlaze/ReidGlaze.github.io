@@ -14,11 +14,7 @@ This project is currently being edited.
 2. [Time-Based Data Analysis](#Time-Based-Data-Analysis)
     - [Data Loading and Preprocessing](#Data-Loading-and-Preprocessing)
     - [Visualizations](#Visualizations)
-3. [Predictive Modeling](#Predictive-Modeling)
-    - [Data Preparation](#Data-Preparation)
-    - [Model Selection and Training](#Model-Selection-and-Training)
-    - [Model Evaluation](#Model-Evaluation)
-4. [Conclusion](#Conclusion)
+
 ---
 
 ## Introduction

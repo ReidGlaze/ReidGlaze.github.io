@@ -29,6 +29,7 @@ Nevertheless, this limitation was circumvented by leveraging Python's capabiliti
 Multiple visualizations were generated to understand the patterns in `% Silica` and `% Iron` concentrates based on different time granularities such as hour of the day and day of the week. The visuals provide insights into how the concentrations change over time.
 
 
+![mining_hourly](/assets/images/mining_hourly.png)
 ---
 
 ## Predictive Modeling

@@ -11,9 +11,7 @@ This project is currently being edited.
 
 ## Table of Contents
 1. [Introduction](#Introduction)
-2. [Time-Based Data Analysis](#Time-Based-Data-Analysis)
-    - [Data Loading and Preprocessing](#Data-Loading-and-Preprocessing)
-    - [Visualizations](#Visualizations)
+
 
 ---
 

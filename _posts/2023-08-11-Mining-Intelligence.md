@@ -71,8 +71,23 @@ A `RandomForestRegressor` was chosen to predict the two targets. The model was t
 ### Model Evaluation
 The model's predictions on the test set were evaluated using the Mean Squared Error (MSE) and \( R^2 \) score for both targets. These metrics provide a quantitative measure of the model's accuracy and fit.
 
+### Random Forest Model Results
+
+| Metric   | Iron                      | Silica                    |
+|----------|---------------------------|---------------------------|
+| MSE      | 0.04238187206017949       | 0.04277235228583643       |
+| R2       | 0.966036383564287         | 0.9661563706544567        |
+
 
 ---
 
 ## Conclusion
-The analysis provides valuable insights into how `% Iron` and `% Silica` concentrations vary over time. The machine learning model offers a mechanism to predict these concentrations based on input features, which can be beneficial for process optimization in the mining industry.
+
+In this study, time-based analysis was carried out using SQLite in Python. One of the advantages of using SQLite is that it doesn't require setting up a separate database, making the process smoother and more efficient. With Python's tools at hand, the analysis was straightforward and effective.
+
+The data revealed changes in % Iron and % Silica concentrations over time, which is valuable information for those in the mining industry. A significant component of the research was the development of a machine learning model. This model is designed to predict concentrations based on certain features, providing a practical tool that could enhance efficiency in mining operations.
+
+Overall, this project served as a solid learning experience in data science. By combining database techniques with machine learning, it demonstrated the potential of data-driven decision-making.
+
+In conclusion, the research highlighted the shifts in mineral concentrations over time and showcased the utility of tools like SQLite and machine learning in understanding and predicting such changes. It stands as a testament to the practical and educational value of hands-on data projects.
+

@@ -24,7 +24,7 @@ This article delves into iron ore mining, highlighting the significance of monit
   - **Middle columns:** Process data, including level and airflow in flotation columns.
   - **Final columns:** Lab measurements of final iron ore pulp quality, with the last column indicating the percentage of silica. These columns serve as the output in the prediction model.
 - **Goal:** Perform time-based analysis on the data to better understand it and to build a prediction model for impurity levels.
-- **Dataset Link:** [Quality Prediction in a Mining Process | Kaggle](https://www.kaggle.com/edumagalhaes/quality-prediction-in-a-mining-process)
+- **Dataset Link:** [Quality Prediction in a Mining Process](https://www.kaggle.com/edumagalhaes/quality-prediction-in-a-mining-process)
 
 This dataset provides insights into the mining process, aiming to enhance efficiency by predicting impurity levels in real-time and understanding patterns over time.
 

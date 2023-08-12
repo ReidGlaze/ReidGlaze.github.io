@@ -106,3 +106,4 @@ Overall, this project served as a solid learning experience in data science. By 
 
 In conclusion, the research highlighted the shifts in mineral concentrations over time and showcased the utility of tools like SQLite and machine learning in understanding and predicting such changes. It stands as a testament to the practical and educational value of hands-on data projects.
 
+[Check out the Python and SQLite code!](https://github.com/ReidGlaze/Mining_Project/blob/main/MiningProject.ipynb)

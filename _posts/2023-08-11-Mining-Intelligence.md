@@ -6,9 +6,6 @@ categories: [DAA Bootcamp]
 tags: [python, data analytics, sql, data science]     # TAG names should always be lowercase
 ---
 
-# This page is currently under construction. Please check out my other projects or come back again later!
----
-
 ## Introduction
 
 Iron ore, a vital ingredient for steel production, is extracted from minerals rich in iron oxides, displaying colors from dark grey to rusty red. Among these, high-grade ores with substantial hematite or magnetite content are particularly valuable. These ores, often surpassing 60% iron content, are directly used in steel-making processes.
@@ -38,7 +35,7 @@ This dataset provides insights into the mining process, aiming to enhance effici
 ### Data Loading and Preprocessing
 The dataset, containing various parameters related to the mining process, was sourced from a CSV file. A key focus during preprocessing was the 'date' column, from which we derived multiple features such as the hour of the day, day of the week, month, and an indicator signifying weekends.
 
-For this project, both SQL and Python were employed to handle and process the data. In a preceding endeavor—a bike rental prediction model—I utilized Azure to set up a database and conducted queries using T-SQL within Azure Data Studio. However, since my Azure subscription has since expired, I transitioned to SQLite for the current project. A significant advantage of SQLite is its ability to integrate seamlessly with Python, eliminating the need for external database hosting. On the flip side, SQLite lacks native Datetime functions.
+For this project, both SQL and Python were employed to handle and process the data. In a preceding endeavor—a [bike rental prediction model](https://reidglaze.github.io/posts/Bike-Rental-Predictions/)—I utilized Azure to set up a database and conducted queries using T-SQL within Azure Data Studio. However, since my Azure subscription has since expired, I transitioned to SQLite for the current project. A significant advantage of SQLite is its ability to integrate seamlessly with Python, eliminating the need for external database hosting. On the flip side, SQLite lacks native Datetime functions.
 
 Nevertheless, this limitation was circumvented by leveraging Python's capabilities to perform Datetime operations. The initial step in preprocessing entailed transforming the Datetime information into a set of features that could be more efficiently interpreted by SQLite. Subsequently, SQLite was employed for conducting time-centric analyses.
 
@@ -105,7 +102,7 @@ In this study, time-based analysis was carried out using SQLite in Python. One o
 
 The data revealed changes in % Iron and % Silica concentrations over time, which is valuable information for those in the mining industry. A significant component of the research was the development of a machine learning model. This model is designed to predict concentrations based on certain features, providing a practical tool that could enhance efficiency in mining operations.
 
-Overall, this project served as a solid learning experience in data science. By combining database techniques with machine learning, it demonstrated the potential of data-driven decision-making.
+Overall, this project served as a solid learning experience in data science. By combining python with SQLite and using machine learning, it demonstrated the potential of data-driven decision-making.
 
 In conclusion, the research highlighted the shifts in mineral concentrations over time and showcased the utility of tools like SQLite and machine learning in understanding and predicting such changes. It stands as a testament to the practical and educational value of hands-on data projects.
 

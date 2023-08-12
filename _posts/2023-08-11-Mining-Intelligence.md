@@ -13,6 +13,20 @@ tags: [python, data analytics, sql, data science]     # TAG names should always 
 
 This report focuses on analyzing a dataset related to the mining process. The primary objectives are understanding patterns in the mining process over time and building a predictive model for `% Iron Concentrate` and `% Silica Concentrate`.
 
+### **Dataset Overview:**
+- **Origin:** Real-world mining plants, focusing on a flotation plant.
+- **Purpose:** Predict the amount of silica (impurity) in the ore concentrate in real-time.
+- **Time Frame:** March 2017 to September 2017.
+- **Sampling:** Data samples are taken every 20 seconds.
+- **Key Columns:** 
+  - **Initial columns:** Measures of iron feed and silica feed.
+  - **Middle columns:** Process data, including level and airflow in flotation columns.
+  - **Final columns:** Lab measurements of final iron ore pulp quality, with the last column indicating the percentage of silica. These columns serve as the output in the prediction model.
+- **Goal:** Perform time-based analysis on the data to better understand it and to build a prediction model for impurity levels.
+- **Dataset Link:** [Quality Prediction in a Mining Process | Kaggle](https://www.kaggle.com/edumagalhaes/quality-prediction-in-a-mining-process)
+
+This dataset provides insights into the mining process, aiming to enhance efficiency by predicting impurity levels in real-time and understanding patterns over time.
+
 ---
 
 ## Time-Based Data Analysis

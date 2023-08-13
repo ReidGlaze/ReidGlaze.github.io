@@ -3,7 +3,7 @@ title: "Mining Intelligence - Time-Based Analysis and Predictive Modeling"
 date: 2023-08-12 00:00:00 -0700
 image: /assets/images/mining_canva.png
 categories: [DAA Bootcamp]
-tags: [python, data analytics, sql, data science]     # TAG names should always be lowercase
+tags: [python, data analytics, sql, data science, sqlite, random forest]     # TAG names should always be lowercase
 ---
 
 ## Introduction
@@ -81,7 +81,7 @@ Low Correlation with the Output: Variables that have minimal correlation with th
 
 
 ### Model Selection and Training
-The data was split into '80% training' and '20% testing' data.
+The data was split into `80% training` and `20% testing` data.
 
 A `RandomForestRegressor` was chosen to predict the two targets. The model was trained on the training data to capture patterns in the input features that influence the concentrations. The number of iterations was set to 20.
 

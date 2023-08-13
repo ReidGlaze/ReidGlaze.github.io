@@ -81,7 +81,9 @@ Low Correlation with the Output: Variables that have minimal correlation with th
 
 
 ### Model Selection and Training
-A `RandomForestRegressor` was chosen to predict the two targets. The model was trained on the training data to capture patterns in the input features that influence the concentrations.
+The data was split into '80% training' and '20% testing' data.
+
+A `RandomForestRegressor` was chosen to predict the two targets. The model was trained on the training data to capture patterns in the input features that influence the concentrations. The number of iterations was set to 20.
 
 ### Model Evaluation
 The model's predictions on the test set were evaluated using the Mean Squared Error (MSE) and \( R^2 \) score for both targets. These metrics provide a quantitative measure of the model's accuracy and fit.

@@ -3,7 +3,7 @@ title: "Reconfigurable Cubesat Swarm - A Satellite Design Project"
 date: 2023-07-22 00:00:00 -0700
 image: /assets/images/jpl.png
 categories: [Senior Design Project]
-tags: [aerospace, robotics,satellite, senior design,nasa]     # TAG names should always be lowercase
+tags: [aerospace, robotics,satellite, senior design,nasa, raspberry pi]     # TAG names should always be lowercase
 ---
 
 ## Project Overview

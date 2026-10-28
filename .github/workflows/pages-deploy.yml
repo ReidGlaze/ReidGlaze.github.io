@@ -64,6 +64,9 @@ jobs:
             --template-title "Reid Glaze" \
             --template-instructions "This portfolio is password protected."
           cp -r "_encrypted/$(basename "$SITE_DIR")/." "$SITE_DIR/"
+          # Tick "Remember me" by default so one login covers every page.
+          find "$SITE_DIR" -name '*.html' -exec sed -i \
+            's|<input id="staticrypt-remember" type="checkbox" name="remember" />|<input id="staticrypt-remember" type="checkbox" name="remember" checked />|' {} +
         env:
           SITE_DIR: "_site${{ steps.pages.outputs.base_path }}"
           STATICRYPT_PASSWORD: ${{ secrets.STATICRYPT_PASSWORD }}

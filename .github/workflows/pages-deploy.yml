@@ -54,6 +54,20 @@ jobs:
         run: |
           bundle exec htmlproofer _site --disable-external --check-html --allow_hash_href
 
+      # Password protect the whole site. Files that would expose post content
+      # without going through an encrypted page are removed first.
+      - name: Encrypt site
+        run: |
+          rm -f "$SITE_DIR/feed.xml" "$SITE_DIR/sitemap.xml" "$SITE_DIR/assets/js/data/search.json"
+          npx --yes staticrypt@3.5.4 "$SITE_DIR" -r -d _encrypted \
+            --short --remember 30 \
+            --template-title "Reid Glaze" \
+            --template-instructions "This portfolio is password protected."
+          cp -r "_encrypted/$(basename "$SITE_DIR")/." "$SITE_DIR/"
+        env:
+          SITE_DIR: "_site${{ steps.pages.outputs.base_path }}"
+          STATICRYPT_PASSWORD: ${{ secrets.STATICRYPT_PASSWORD }}
+
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v1
         with:

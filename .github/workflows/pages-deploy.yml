@@ -67,6 +67,9 @@ jobs:
           # Tick "Remember me" by default so one login covers every page.
           find "$SITE_DIR" -name '*.html' -exec sed -i \
             's|<input id="staticrypt-remember" type="checkbox" name="remember" />|<input id="staticrypt-remember" type="checkbox" name="remember" checked />|' {} +
+          # Keep the site out of search engines.
+          find "$SITE_DIR" -name '*.html' -exec sed -i \
+            's|<head>|<head><meta name="robots" content="noindex, nofollow">|' {} +
         env:
           SITE_DIR: "_site${{ steps.pages.outputs.base_path }}"
           STATICRYPT_PASSWORD: ${{ secrets.STATICRYPT_PASSWORD }}
